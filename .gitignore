@@ -1,0 +1,6 @@
+/venv
+.env
+
+data/building_code
+data/processed/Part_9_National_building_Code copy.json
+data/processed/Part_9_National_building_Code.md
