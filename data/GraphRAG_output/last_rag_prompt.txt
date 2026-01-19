@@ -1,0 +1,120 @@
+You are an expert on the National Building Code. Answer the following question based on the provided sections.
+
+Question: I need to better understand how exactly my cantilevered floor joist should be attached to an interior joist. Can you tell me what I need to know?
+
+
+Relevant Building Code Sections:
+
+
+============================================================
+Section 1: 9.23.9.9.
+============================================================
+Title: Cantilevered Floor Joists
+Context: Floor Joists > Wood-Frame Construction
+
+Content:
+1) Floor joists supporting roof loads shall not be cantilevered more than 400 mm
+beyond their supports where 38 mm by 184 mm joists are used and not more than
+
+2) The cantilevered portions referred to in Sentence (1) shall not support floor
+loads from other _storeys_ unless calculations are provided to show that the design
+resistances of the cantilevered joists are not exceeded.
+
+3) Where cantilevered floor joists described in Sentences (1) and (2) are at right
+angles to the main floor joists, the tail joists in the cantilevered portion shall extend
+inward away from the cantilever support a distance equal to not less than 6 times the
+length of the cantilever, and shall be end nailed to an interior doubled header joist in
+conformance with Table 9.23.3.4.
+
+============================================================
+Section 2: 9.23.9.2.
+============================================================
+Title: Joists Supported by Beams
+Context: Floor Joists > Wood-Frame Construction
+
+Content:
+1) Floor joists may be supported on the tops of beams or may be framed into
+the sides of beams.
+
+2) When framed into the side of a wood beam, joists referred to in Sentence (1)
+shall be supported on
+a) joist hangers or other acceptable mechanical connectors, or
+b) not less than 38 mm by 64 mm ledger strips nailed to the side of the beam,
+except that 38 mm by 38 mm ledger strips may be used provided each joist
+is nailed to the beam by not less than four 89 mm nails, in addition to the
+nailing for the ledger strip required in Table 9.23.3.4.
+
+3) When framed into the side of a steel beam, joists referred to in Sentence (1) shall
+be supported on the bottom flange of the beam or on not less than 38 mm by 38 mm
+lumber bolted to the web with not less than 6.3 mm diam bolts spaced not more than
+
+4) Joists referred to in Sentence (3) shall be spliced above the beam with not less
+than 38 mm by 38 mm lumber at least 600 mm long to support the flooring.
+
+5) Not less than a 12 mm space shall be provided between the splice required in
+Sentence (4) and the beam to allow for shrinkage of the wood joists.
+
+============================================================
+Section 3: 9.23.9.3.
+============================================================
+Title: Restraint of Joist Bottoms
+Context: Floor Joists > Wood-Frame Construction
+
+Content:
+1) Except as provided in Sentence 9.23.9.4.(1), bottoms of floor joists shall be
+restrained from twisting at each end by toe-nailing to the supports, end-nailing to the
+header joists or by providing continuous strapping, blocking between the joists or
+cross-bridging near the supports.
+
+_**9-142**_ _**Division B**_ _**National Building Code – 2023 Alberta Edition Volume 2**_
+
+--- Referenced Sections ---
+
+Referenced Section: 9.23.9.4.
+Title: Strapping, Bridging, Furring and Ceilings in Span Tables 9.23.4.2.-A
+Content: and -B
+
+(See Note A-9.23.4.2.(2).)
+
+1) Except as permitted by Sentence (5), where strapping is specified in Span
+Table 9.23.4.2.-A, it shall be
+a) not less than 19 mm by 64 mm, nailed to the underside of floor joists,
+b) located not more than 2 100 mm from each support or other rows of
+strapping, and
+c) fastened at each end to a sill or header.
+
+2) Where bridging is specified in Span Table 9.23.4.2.-A, it shall consist of not
+less than 19 mm by 64 mm or 38 mm by 38 mm cross bridging located not more than
+
+3) Where bridging and strapping are specified in Span Table 9.23.4.2.-A,
+a) bridging shall
+i) comply with Sentence (2), or
+ii) consist of 38 mm solid blocking located not more than
+
+securely fastened between the joists, and
+b) except as provided in Sentence (5), strapping shall comply with Sentence (1)
+and be installed under the bridging.
+
+4) Bridging specified in Span Table 9.23.4.2.-B shall consist of
+a) bridging as described in Sentence (2), or
+b) 38 mm solid blocking located not more than 2 100 mm from each support or
+other rows of bridging and securely fastened between the joists.
+
+5) Strapping described in Sentence (1) and Clause (3)(b) is not required where
+a) furring strips complying with Table 9.29.3.1. are fastened directly to the
+joists, or
+b) a panel-type ceiling finish complying with Subsection 9.29.5., 9.29.6., 9.29.7.,
+9.29.8., or 9.29.9. is attached directly to the joists.
+
+6) Where a ceiling attached to wood furring is specified in Span Table 9.23.4.2.-B,
+a) the ceiling finish shall consist of gypsum board, plywood or OSB not less
+than 12.7 mm thick, and
+b) the furring shall be
+i) 19 mm by 89 mm wood furring spaced at not more than
+
+ii) 19 mm by 64 mm wood furring spaced at not more than
+
+============================================================
+
+Based on the above sections and tables, please provide a comprehensive answer.
+Always cite specific section numbers when referencing requirements.

@@ -168,6 +168,7 @@
                         "text": "1) Except for joists, rafters, trusses and beams, visually graded lumber shall\nconform to the grades in Table 9.3.2.1. (See Article 9.23.4.2. for joists, rafters and beams\nand Article 9.23.14.11. for trusses.)",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.3.2.1.",
                             "9.23.4.2.",
                             "9.23.14.11."
                         ],
@@ -272,6 +273,7 @@
                         "text": "(See Note A-9.4.1.1.)\n\n1) Subject to the application limitations defined elsewhere in this Part, structural\nmembers and their connections shall\na) conform to requirements provided elsewhere in this Part,\n\n_**9-6**_ _**Division B**_ _**National Building Code – 2023 Alberta Edition Volume 2**_\n\nb) be designed according to good engineering practice such as that provided in\nCWC 2014, “Engineering Guide for Wood Frame Construction,” or\nc) be designed according to Part 4 using the loads and deflection and vibration\nlimits specified in\ni) Part 9, or\nii) Part 4.\n\n2) Where floor framing is designed in accordance with Clause (1)(b) or (c), and\nwhere supporting wall framing and fastenings, or footings are designed according to\nClause (1)(a), the maximum specified _live load_ on the floor according to Table 4.1.5.3.\nshall not exceed 2.4 kPa.\n\n3) Location-specific information for structural design, including snow and\nwind loads and seismic spectral accelerations, shall be determined according to\nSubsection 1.1.3.",
                         "tables": {},
                         "referenced_text": [
+                            "Table 4.1.5.3.",
                             "1.1.3."
                         ],
                         "subsections": {}
@@ -628,6 +630,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.6.1.3.",
                             "4.3.6.1."
                         ],
                         "subsections": {}
@@ -905,6 +908,7 @@
                         "text": "1) Except as provided in Sentence (2) and Article 9.8.4.7., required _exit_ stairs and\npublic stairs serving _buildings_ of _residential occupancy_ shall have a width of not less\nthan 900 mm.\n\n2) _Exit_ stairs serving a single _dwelling unit_ or a house with a _secondary suite_\nincluding their common spaces shall have a width of not less than 860 mm.\n\n3) Except as provided in Article 9.8.4.7., required _exit_ stairs and public stairs\nserving _buildings_ of other than _residential occupancy_ shall have a width of not less than\nthe greater of\na) 900 mm, or\nb) 8 mm per person based on the _occupant load_ limits specified in Table 3.1.17.1.\n\n4) Except as provided in Article 9.8.4.7., at least one stair between each floor level\nwithin a _dwelling unit_, and exterior stairs serving a single _dwelling unit_ except required\n_exit_ stairs, shall have a width of not less than 860 mm.\n\n_**National Building Code – 2023 Alberta Edition Volume 2**_ _**Division B**_ _**9-21**_",
                         "tables": {},
                         "referenced_text": [
+                            "Table 3.1.17.1.",
                             "9.8.4.7."
                         ],
                         "subsections": {}
@@ -991,9 +995,9 @@
                         "text": "(See Note A-9.8.4.)\n\n1) Except as provided in Sentence (2) and Articles 9.8.4.6. and 9.8.4.7., _tapered_\n_treads_ shall have a _run_ that\na) is not less than 150 mm at the narrow end of the tread, and\nb) complies with the dimensions stated in Table 9.8.4.2. when measured at a\npoint 300 mm from the centre line of the handrail at the narrow end of the\ntread.\n\n2) _Tapered treads_ in required _exit_ stairs shall conform to the requirements in\nArticle 3.4.6.9.\n\n3) The depth of a _tapered tread_ shall be not less than its _run_ at any point and not\nmore than its _run_ at any point plus 25 mm.\n\n_**National Building Code – 2023 Alberta Edition Volume 2**_ _**Division B**_ _**9-23**_",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.8.4.2.",
                             "9.8.4.6.",
                             "9.8.4.7.",
-                            "9.8.4.2.",
                             "3.4.6.9."
                         ],
                         "subsections": {}
@@ -1404,7 +1408,9 @@
                         "title": "Occupant Load",
                         "text": "1) Except for _dwelling units_, the _occupant load_ of a _floor area_ or part of a _floor area_\nshall be the number of persons for which such areas are designed, but not fewer\nthan that determined from Table 3.1.17.1., unless it can be shown that the area will\nbe occupied by fewer persons.\n\n2) The _occupant load_ for _dwelling units_ shall be based on 2 persons per bedroom or\nsleeping area.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 3.1.17.1."
+                        ],
                         "subsections": {}
                     }
                 }
@@ -1845,8 +1851,8 @@
                         "text": "1) Except as permitted by Sentences (2) and (3), the space above a _mezzanine_ shall\nbe served by _means of egress_ leading to _exits_ accessible at the _mezzanine_ level, on the\nsame basis as _floor areas_ .\n\n2) The _means of egress_ from a _mezzanine_ need not conform to Sentence (1), provided\na) the _mezzanine_ is not required to terminate at a vertical _fire separation_, as\npermitted by Sentence 9.10.12.1.(2),\nb) the _occupant load_ of the _mezzanine_ is not more than 60,\nc) the area of the _mezzanine_ does not exceed the area limits stated in\nTable 9.9.7.4., and\nd) the distance limits stated in Table 9.9.7.4., measured along the path of travel,\nare not exceeded from any point on the _mezzanine_ to\ni) an egress door serving the space that the _mezzanine_\noverlooks if the space is served by a single egress door, or\nii) an egress stairway leading to an _access to exit_ in the space\nbelow if that space is required to be served by 2 or more\negress doorways in conformance with Sentence 9.9.7.4.(1).\n\n_**National Building Code – 2023 Alberta Edition Volume 2**_ _**Division B**_ _**9-41**_\n\n3) One of the _means of egress_ from a _mezzanine_ that is not required to terminate at\na _fire separation_, as permitted by Sentence 9.10.12.1.(2), and that exceeds the limits of\nSentence (2) is permitted to lead through the room in which the _mezzanine_ is located,\nprovided all other _means of egress_ from that _mezzanine_ lead to _exits_ accessible at the\n_mezzanine_ level.\n\n4) Except as provided in Sentence (2), the maximum travel distance from any\npoint on a _mezzanine_ to the nearest _exit_ shall be not more than\na) 40 m in a _business and personal services occupancy_,\nb) 45 m in a _floor area_ that is _sprinklered_ throughout, provided it does not\ncontain a _high-hazard industrial occupancy_, or\nc) 30 m in any _floor area_ not referred to in Clause (a) or (b).",
                         "tables": {},
                         "referenced_text": [
-                            "9.10.12.1.",
-                            "9.9.7.4."
+                            "Table 9.9.7.4.",
+                            "9.10.12.1."
                         ],
                         "subsections": {}
                     }
@@ -2107,7 +2113,9 @@
                         "title": "Fire-Resistance and Fire-Protection Ratings",
                         "text": "1) Where a _fire-resistance rating_ or a _fire-protection rating_ is required in this Section\nfor an element of a _building_, such rating shall be determined in conformance with\na) the test methods described in Part 3,\nb) the calculation method presented in Appendix D, or\nc) the construction specifications presented in Tables 9.10.3.1.-A\nand 9.10.3.1.-B.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.10.3.1."
+                        ],
                         "subsections": {}
                     },
                     "9.10.3.2.": {
@@ -2184,8 +2192,8 @@
                         "text": "1) Except as permitted in Sentences (2) and (3), a membrane forming part of an\nassembly required to have a _fire-resistance rating_ shall not be pierced by openings into\nthe assembly unless the assembly has been tested and rated for such openings.\n\n2) A wall or ceiling membrane forming part of an assembly required to have a\n_fire-resistance rating_ is permitted to be pierced by openings for electrical and similar\nservice outlet boxes, provided such outlet boxes and the penetrations conform to\nArticle 9.10.9.8.\n\n3) A membrane ceiling forming part of an assembly assigned a _fire-resistance rating_\non the basis of Table 9.10.3.1.-B or Appendix D is permitted to be pierced by openings\nleading to ducts within the ceiling space, provided the ducts, the amount of openings\nand their protection conform to the requirements of Appendix D.",
                         "tables": {},
                         "referenced_text": [
-                            "9.10.9.8.",
-                            "9.10.3.1."
+                            "Table 9.10.3.1.",
+                            "9.10.9.8."
                         ],
                         "subsections": {}
                     }
@@ -2259,6 +2267,7 @@
                         "text": "1) The requirements in Table 9.10.8.1. for roof assemblies to have a _fire-resistance_\n_rating_ are permitted to be waived in _sprinklered buildings_ where\na) the sprinkler system is electrically supervised in conformance with\nSentence 3.2.4.9.(3), and\nb) the operation of the sprinkler system will cause a signal to be transmitted to\nthe fire department in conformance with Sentence 3.2.4.7.(4).",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.10.8.1.",
                             "3.2.4.9.",
                             "3.2.4.7."
                         ],
@@ -2292,9 +2301,9 @@
                         "text": "1) _Mezzanines_ required to be counted as _storeys_ in Articles 9.10.4.1. and 9.10.4.2.\nshall be constructed in conformance with the requirements for “Floors Except Floors\nover Crawl Spaces” in Table 9.10.8.1.",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.10.8.1.",
                             "9.10.4.1.",
-                            "9.10.4.2.",
-                            "9.10.8.1."
+                            "9.10.4.2."
                         ],
                         "subsections": {}
                     },
@@ -2302,7 +2311,9 @@
                         "title": "Roofs Supporting an Occupancy",
                         "text": "1) Where a portion of a roof supports an _occupancy_, that portion shall be\nconstructed as a _fire separation_ having a _fire-resistance rating_ conforming to the rating for\n“Floors Except Floors over Crawl Spaces” in Table 9.10.8.1.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.10.8.1."
+                        ],
                         "subsections": {}
                     },
                     "9.10.8.8.": {
@@ -2327,7 +2338,9 @@
                         "title": "Application to Houses",
                         "text": "1) Table 9.10.8.1. does not apply to\na) a _dwelling unit_ that has no other _dwelling unit_ above or below it,\nb) houses with a _secondary suite_, where the floor framing is protected on the\nunderside by a continuous smoke-tight barrier of not less than 12.7 mm\nthick gypsum board, or\nc) a _dwelling unit_ that is not above or below another _major occupancy_ .",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.10.8.1."
+                        ],
                         "subsections": {}
                     },
                     "9.10.8.11.": {
@@ -2859,6 +2872,8 @@
                         "text": "1) The area of an _exposing building face_ shall be\na) taken as the exterior wall area facing in one direction on any side of a\n_building_, and\nb) calculated as\ni) the total area measured from the finished ground level to\nthe uppermost ceiling, or\nii) the area for each _fire compartment_, where a _building_ is divided\ninto _fire compartment_ s by _fire separations_ with _fire-resistance_\n_ratings_ not less than 45 min.\n\n2) For the purpose of using Table 9.10.14.4.-A to determine the maximum\naggregate area of _unprotected openings_ in an irregularly shaped or skewed exterior wall,\nthe location of the _exposing building face_ shall be taken as a vertical plane located so that\nthere are no _unprotected openings_ between the vertical plane and the line to which the\n_limiting distance_ is measured. (See Note A-3.2.3.1.(4).)\n\n3) For the purpose of using Table 9.10.14.5.-A to determine the required type of\nconstruction, cladding and _fire-resistance rating_ for an irregularly shaped or skewed\nexterior wall,\na) the location of the _exposing building face_ shall be taken as a vertical plane\nlocated so that no portion of the actual _exposing building face_ is between the\nvertical plane and the line to which the _limiting distance_ is measured, and\nb) the value for the maximum area of _unprotected openings_ (see second column\nof Table 9.10.14.5.-A) shall be determined using the _limiting distance_\nmeasured from the location described in Clause (a). (See Note A-3.2.3.1.(4).)\n\n_**9-64**_ _**Division B**_ _**National Building Code – 2023 Alberta Edition Volume 2**_",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.10.14.4.",
+                            "Table 9.10.14.5.",
                             "3.2.3.1."
                         ],
                         "subsections": {}
@@ -2888,12 +2903,13 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.10.14.4.",
+                            "Table 9.10.13.1.",
                             "3.2.3.",
                             "9.9.10.1.",
                             "9.10.13.5.",
                             "9.10.13.7.",
-                            "3.2.5.12.",
-                            "9.10.13.1."
+                            "3.2.5.12."
                         ],
                         "subsections": {}
                     },
@@ -2911,6 +2927,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.10.14.5.",
                             "9.10.8.",
                             "3.1.5.5.",
                             "9.27.6.",
@@ -2943,7 +2960,7 @@
                         "text": "1) The area of an _exposing building face_ shall be\na) taken as the exterior wall area facing in one direction on any side of a\n_building_, and\nb) calculated as\ni) the total area measured from the finished ground level to\nthe uppermost ceiling,\nii) the area for each _fire compartment_, where a _building_ is divided\ninto _fire compartments_ by _fire separations_ with _fire-resistance_\n_ratings_ not less than 45 min, or\niii) except as provided in Sentence (2), where Table 9.10.15.4. is\nused to determine the maximum aggregate area of glazed\nopenings, the area of any number of individual portions of\nthe _exposing building face_ . (See Note A-9.10.15.4.(2).)\n\n2) Where the _exposing building face_ of any section of an exterior wall enclosing a\nsingle room or space, or combination room and space, has a _limiting distance_ of 2 m\nor less, that section of the _exposing building face_ serving the room or space shall not be\ndivided into portions for the purpose of calculating area of _exposing building face_ . (See\nSentence 9.10.15.4.(5) and Note A-9.10.15.4.(2).)\n\n3) For the purpose of using Table 9.10.15.4. to determine the maximum aggregate\narea of glazed openings in an irregularly shaped or skewed exterior wall, the location\nof the _exposing building face_ shall be taken as a vertical plane located so that there are no\nglazed openings between the vertical plane and the line to which the _limiting distance_ is\nmeasured. (See Note A-3.2.3.1.(4).)\n\n4) In determining the required cladding-sheathing assembly and _fire-resistance_\n_rating_ for an irregularly shaped or skewed exterior wall, the location of the _exposing_\n_building face_ shall be taken as a vertical plane located so that no portion of the actual\n_exposing building face_ is between the vertical plane and the line to which the _limiting_\n_distance_ is measured. (See Article 9.10.15.5. and Note A-3.2.3.1.(4).)",
                         "tables": {},
                         "referenced_text": [
-                            "9.10.15.4.",
+                            "Table 9.10.15.4.",
                             "9.10.15.5.",
                             "3.2.3.1."
                         ],
@@ -3441,8 +3458,8 @@
                         "text": "1) Compliance with the required _STC_ ratings shall be demonstrated through\na) measurements carried out in accordance with Sentence 9.11.1.2.(1), or\nb) the construction of separating assemblies conforming to Table 9.10.3.1.-A\nor 9.10.3.1.-B, as applicable.\n\n2) Compliance with the required _ASTC_ ratings shall be demonstrated through\na) measurements or calculations carried out in accordance with\nSentence 9.11.1.2.(2), or\nb) the construction of separating assemblies conforming to Table 9.10.3.1.-A\nor 9.10.3.1.-B, as applicable, that have an _STC_ rating of not less than 50\nin conjunction with flanking assemblies constructed in accordance with\nArticle 9.11.1.4. (see Note A-9.11.1.3.(2)(b)).",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.10.3.1.",
                             "9.11.1.2.",
-                            "9.10.3.1.",
                             "9.11.1.4."
                         ],
                         "subsections": {}
@@ -4088,21 +4105,27 @@
                         "title": "Adjustments to Footing Widths for Exterior Walls",
                         "text": "1) The strip footing widths for exterior walls shown in Table 9.15.3.4. shall be\nincreased by\na) 65 mm for each _storey_ of masonry veneer over wood-frame construction\nsupported by the _foundation_ wall,\nb) 130 mm for each _storey_ of masonry construction supported by the _foundation_\nwall, and\nc) 150 mm for each _storey_ of flat insulating concrete form wall construction\nsupported by the _foundation_ wall.\n\n_**9-96**_ _**Division B**_ _**National Building Code – 2023 Alberta Edition Volume 2**_",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.15.3.4."
+                        ],
                         "subsections": {}
                     },
                     "9.15.3.6.": {
                         "title": "Adjustments to Footing Widths for Interior Walls",
                         "text": "1) The minimum strip footing widths for interior _loadbearing_ masonry walls shown\nin Table 9.15.3.4. shall be increased by 100 mm for each _storey_ of masonry construction\nsupported by the footing.\n\n2) Footings for interior non- _loadbearing_ masonry walls shall be not less than\n\nfor each additional 2.7 m of height.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.15.3.4."
+                        ],
                         "subsections": {}
                     },
                     "9.15.3.7.": {
                         "title": "Adjustments to Footing Area for Columns",
                         "text": "1) The footing area for column spacings other than shown in Table 9.15.3.4. shall\nbe adjusted in proportion to the distance between columns.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.15.3.4."
+                        ],
                         "subsections": {}
                     },
                     "9.15.3.8.": {
@@ -4148,6 +4171,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.15.4.2.",
                             "9.15.4.3.",
                             "9.15.4.6."
                         ],
@@ -4188,6 +4212,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.15.4.5.",
                             "9.20.17.3.",
                             "9.20.17.4."
                         ],
@@ -4469,6 +4494,7 @@
                         "text": "1) This Section applies to columns used to support\na) beams carrying loads from not more than 2 wood-frame floors where\ni) the supported length of joists bearing on such beams does\nnot exceed 5 m, and\nii) the _live load_ on any floor does not exceed 2.4 kPa (see\nTable 4.1.5.3.),\nb) beams or header joists carrying loads from not more than 2 levels of\nwood-frame balconies, decks or other accessible exterior platforms, or 1\nlevel plus the roof, where\ni) the supported length of joists bearing on such beams or\njoists does not exceed 5 m,\nii) the sum of the specified snow and _occupancy_ loads\ndoes not exceed 4.8 kPa (see Sentence 9.4.2.3.(1) for the\ndetermination of load on platform-type constructions), and\niii) the platform serves only a single _suite_ of _residential_\n_occupancy_, or\nc) carport roofs (see Section 9.35.).\n\n2) Columns for applications other than as described in Sentence (1) shall be\ndesigned in accordance with Part 4.",
                         "tables": {},
                         "referenced_text": [
+                            "Table 4.1.5.3.",
                             "9.4.2.3.",
                             "9.35."
                         ],
@@ -4967,7 +4993,9 @@
                                 "table_content": "|Col1|Table 9.20.3.2.-A Mortar Use Forming Part of Sentence 9.20.3.2.(1)|Col3|\n|---|---|---|\n|Location|_Building_ Element|Mortar Type|\n|Exterior, Above Ground|_Loadbearing_ walls and columns|S|\n|Exterior, Above Ground|Non-_loadbearing_ walls and columns|N or S|\n|Exterior, Above Ground|Parapets,_ chimneys_, masonry veneer|N or S|\n|Exterior, At or Below Ground|_Foundation_ walls and columns|S|\n|Interior|_Loadbearing_ walls and columns|N|\n|Interior|Non-_loadbearing_ walls and columns|N|"
                             }
                         },
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.20.3.2."
+                        ],
                         "subsections": {}
                     }
                 }
@@ -5386,6 +5414,7 @@
                         "text": "1) Flashing beneath weep holes in masonry veneer over masonry backing\nwalls shall conform to the flashing requirements for _cavity walls_ and masonry\nveneer/masonry backing walls in Article 9.20.13.5.\n\n2) Flashing beneath weep holes in masonry veneer over wood-frame walls shall be\ninstalled so that it extends from a point not less than 5 mm beyond the outer face of the\n_building_ element below the flashing to a point 150 mm up the wood-frame wall.\n\n3) Where the frame wall is sheathed with a sheathing membrane, a\nnon-wood-based rigid exterior insulating sheathing or a semi-rigid insulating\nsheathing with an integral sheathing membrane, the flashing shall be installed behind\nthe sheathing membrane or insulating sheathing.\n\n4) Flashing described in Sentence (2) is permitted to conform to the requirements\nfor concealed flashing in Table 9.20.13.1.",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.20.13.1.",
                             "9.20.13.5."
                         ],
                         "subsections": {}
@@ -5533,7 +5562,9 @@
                         "title": "Openings in Loadbearing Flat Insulating Concrete Form Walls",
                         "text": "1) No openings shall occur within 1 200 mm of interior and exterior corners of\nexterior _loadbearing_ flat insulating concrete form walls.\n\n2) In _loadbearing_ flat insulating concrete form walls, lintels shall be provided over\nall openings wider than 900 mm.\n\n3) Lintels described in Sentence (2) shall be constructed in accordance with Span\nTable 9.20.17.4.-A, 9.20.17.4.-B or 9.20.17.4.-C.\n\n4) Lintels described in Sentence (2) over openings wider than 1 200 mm shall be\nreinforced for shear with 10M stirrups at a maximum spacing of half the distance from\nthe bottom reinforcing bar to the top of the lintel.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.20.17.4."
+                        ],
                         "subsections": {}
                     },
                     "9.20.17.5.": {
@@ -5554,7 +5585,9 @@
                         "title": "Anchoring of Roof Framing to the Top of Flat Insulating Concrete",
                         "text": "Form Walls\n\n1) Roof framing supported on the top of flat insulating concrete form walls shall\nbe fixed to the top plates, which shall be anchored to the wall with anchor bolts\na) not less than 12.7 mm in diameter, and\nb) spaced at not more than 1 200 mm o.c.\n\n2) The anchor bolts described in Sentence (1) shall be placed in the centre of the\nflat insulating concrete form wall and shall be embedded no less than 100 mm into\nthe concrete.\n\n3) Attachment of roof framing to wood top plates shall be in accordance with\nTable 9.23.3.4.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.3.4."
+                        ],
                         "subsections": {}
                     },
                     "9.20.17.7.": {
@@ -5654,7 +5687,9 @@
                                 "table_content": "|Col1|Table 9.21.2.5.-A Diameter of Round Flues for Fireplace Chimneys Forming Part of Sentence 9.21.2.5.(1)|Col3|Col4|Col5|Col6|Col7|Col8|Col9|\n|---|---|---|---|---|---|---|---|---|\n|Fireplace Opening, m2|Chimney Height, m|Chimney Height, m|Chimney Height, m|Chimney Height, m|Chimney Height, m|Chimney Height, m|Chimney Height, m|Chimney Height, m|\n|Fireplace Opening, m2|3.0 to 4.5|3.0 to 4.5|> 4.5 to 5.9|> 4.5 to 5.9|> 5.9 to 8.9|> 5.9 to 8.9|> 8.9 to 12|> 8.9 to 12|\n|Fireplace Opening, m2|Flue Diameter, mm|Flue Diameter, mm|Flue Diameter, mm|Flue Diameter, mm|Flue Diameter, mm|Flue Diameter, mm|Flue Diameter, mm|Flue Diameter, mm|\n|Fireplace Opening, m2|min.|max.|min.|max.|min.|max.|min.|max.|\n|up to 0.150<br>0.151 to 0.250<br>0.251 to 0.350<br>0.351 to 0.500<br>0.501 to 0.650<br>0.651 to 0.800<br>0.801 to 1.00<br>1.01 to 1.20<br>1.21 to 1.40<br>1.41 to 1.60<br>1.61 to 1.80<br>1.81 to 2.00<br>2.01 to 2.20|110<br>150<br>180<br>220<br>260<br>290<br>330<br>360<br>390<br>420<br>—<br>—<br>—|170<br>210<br>240<br>280<br>320<br>350<br>390<br>420<br>450<br>480<br>—<br>—<br>—|100<br>130<br>160<br>200<br>230<br>260<br>290<br>320<br>350<br>380<br>400<br>—<br>—|160<br>190<br>220<br>260<br>290<br>320<br>350<br>380<br>410<br>440<br>460<br>—<br>—|90<br>130<br>150<br>190<br>220<br>240<br>270<br>300<br>330<br>350<br>370<br>400<br>—|150<br>190<br>210<br>250<br>280<br>300<br>330<br>360<br>390<br>410<br>430<br>460<br>—|90<br>120<br>140<br>170<br>200<br>220<br>250<br>270<br>300<br>320<br>340<br>360<br>380|150<br>180<br>200<br>230<br>260<br>280<br>310<br>330<br>360<br>380<br>400<br>420<br>440|\n\n\n|Col1|Table 9.21.2.5.-B Rectangular Flue Sizes for Fireplace Chimneys Forming Part of Sentence 9.21.2.5.(1)|Col3|Col4|Col5|Col6|Col7|Col8|Col9|\n|---|---|---|---|---|---|---|---|---|\n|Fireplace Opening, m2|Chimney Height, m|Chimney Height, m|Chimney Height, m|Chimney Height, m|Chimney Height, m|Chimney Height, m|Chimney Height, m|Chimney Height, m|\n|Fireplace Opening, m2|3.0 to 4.5|3.0 to 4.5|> 4.5 to 5.9|> 4.5 to 5.9|> 5.9 to 8.9|> 5.9 to 8.9|> 8.9 to 12|> 8.9 to 12|\n|Fireplace Opening, m2|Flue Size, mm|Flue Size, mm|Flue Size, mm|Flue Size, mm|Flue Size, mm|Flue Size, mm|Flue Size, mm|Flue Size, mm|\n|Fireplace Opening, m2|min.|max.|min.|max.|min.|max.|min.|max.|\n|up to 0.150<br>0.151 to 0.250<br>0.251 to 0.350<br>0.351 to 0.500<br>0.501 to 0.650<br>0.651 to 0.800<br>0.801 to 1.00<br>1.01 to 1.20<br>1.21 to 1.40<br>1.41 to 1.60<br>1.61 to 1.80<br>1.81 to 2.00|200 × 200<br>200 × 200<br>200 × 300<br>300 × 300<br>300 × 300<br>300 × 400<br>400 × 400<br>400 × 400<br>—<br>—<br>—<br>—|200 × 200<br>200 × 200<br>200 × 300<br>300 × 300<br>300 × 400<br>300 × 400<br>400 × 400<br>400 × 400<br>—<br>—<br>—<br>—|100 × 200<br>200 × 200<br>200 × 200<br>200 × 300<br>300 × 300<br>300 × 300<br>300 × 400<br>400 × 400<br>400 × 400<br>—<br>—<br>—|100 × 200<br>200 × 200<br>200 × 300<br>200 × 300<br>300 × 300<br>300 × 400<br>300 × 400<br>400 × 400<br>400 × 400<br>—<br>—<br>—|100 × 200<br>200 × 200<br>200 × 200<br>200 × 300<br>300 × 300<br>300 × 300<br>300 × 400<br>300 × 400<br>400 × 400<br>400 × 400<br>—<br>—|100 × 200<br>200 × 200<br>200 × 200<br>200 × 300<br>300 × 300<br>300 × 300<br>300 × 400<br>300 × 400<br>400 × 400<br>400 × 400<br>—<br>—|100 × 200<br>200 × 200<br>200 × 200<br>200 × 200<br>200 × 300<br>300 × 300<br>300 × 300<br>300 × 400<br>300 × 400<br>400 × 400<br>400 × 400<br>400 × 400|100 × 200<br>200 × 200<br>200 × 200<br>200 × 300<br>200 × 300<br>300 × 300<br>300 × 300<br>300 × 400<br>300 × 400<br>400 × 400<br>400 × 400<br>400 × 400|"
                             }
                         },
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.21.2.5."
+                        ],
                         "subsections": {}
                     },
                     "9.21.2.6.": {
@@ -6190,7 +6225,9 @@
                                 "table_content": "|Forming|Table 9.23.3.1. Diameter of Nails Part of Sentence 9.23.3.1.(2)|\n|---|---|\n|Minimum Length of Nails, mm|Minimum Diameter of Nails, mm|\n|57<br>63<br>76<br>82<br>101 or greater|2.87<br>3.25<br>3.66<br>3.66<br>4.88|"
                             }
                         },
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.3.4."
+                        ],
                         "subsections": {}
                     },
                     "9.23.3.2.": {
@@ -6245,7 +6282,9 @@
                                 "table_content": "|Element|Minimum Length of Fasteners, mm|Col3|Col4|Col5|Minimum Number or Maximum<br>Spacing of Fasteners|\n|---|---|---|---|---|---|\n|Element|Common or<br>Spiral Nails|Ring<br>Thread<br>Nails or<br>Screws|Roofing<br>Nails|Staples|Staples|\n|Board lumber 184 mm or less wide|51|45|n/a|51|2 per support|\n|Board lumber more than 184 mm wide|51|45|n/a|51|3 per support|\n|Fibreboard sheathing up to 13 mm thick|n/a|n/a|44|28|150 mm o.c. along edges<br>and 300 mm o.c. along<br>intermediate supports|\n|Gypsum sheathing up to 13 mm thick|n/a|n/a|44|n/a|n/a|\n|Plywood, OSB or waferboard up to 10 mm thick|51|45|n/a|38|38|\n|Plywood, OSB or waferboard over 10 mm and up to<br>20 mm thick|51|45|n/a|51|51|\n|Plywood, OSB or waferboard over 20 mm and up to<br>25 mm thick|57|51|n/a|n/a|n/a|"
                             }
                         },
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.3.5."
+                        ],
                         "subsections": {}
                     }
                 }
@@ -6261,6 +6300,7 @@
                         "text": "1) Spans provided in this Subsection for joists, beams and lintels supporting floors\nshall apply only where\na) the floors serve residential areas as described in Table 4.1.5.3., or\nb) the uniformly distributed _live load_ on the floors does not exceed that\nspecified for residential areas as described in Table 4.1.5.3.\n\n2) Spans for joists, beams and lintels supporting floors shall be determined\naccording to Subsection 4.1.3. where the supported floors\na) serve other than residential areas, or\nb) support a uniform _live load_ in excess of that specified for residential areas.",
                         "tables": {},
                         "referenced_text": [
+                            "Table 4.1.5.3.",
                             "4.1.3."
                         ],
                         "subsections": {}
@@ -6270,6 +6310,7 @@
                         "text": "(See Note A-9.23.4.2.)\n\n1) Except as required in Sentence (2) and Article 9.23.14.10., spans for wood joists\nand rafters shall conform to the spans shown in Span Tables 9.23.4.2.-A to 9.23.4.2.-G\nfor the uniform _live loads_ shown in the Tables. (See Article 9.4.2.2.)\n\n2) Spans for floor joists that are not selected from Span Tables 9.23.4.2.-A\nand 9.23.4.2.-B and that are required to be designed for the same loading conditions,\nshall not exceed the design requirements for uniform loading and vibration criteria.\n(See Note A-9.23.4.2.(2).)\n\n3) Spans for built-up wood and glued-laminated timber floor beams shall conform\nto the spans in Span Tables 9.23.4.2.-H to 9.23.4.2.-K. (See Article 9.4.2.2.)\n\n_**National Building Code – 2023 Alberta Edition Volume 2**_ _**Division B**_ _**9-137**_\n\n4) Spans for roof ridge beams shall conform to the spans in Span Table 9.23.4.2.-L\nfor the uniform snow load shown. (See Articles 9.4.2.2. and 9.23.14.8.)",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.23.4.2.",
                             "9.23.14.10.",
                             "9.4.2.2.",
                             "9.23.14.8."
@@ -6292,7 +6333,9 @@
                         "title": "Concrete Topping",
                         "text": "(See Note A-9.23.4.4.)\n\n1) Except as permitted in Sentence (2), where a floor is required to support a\nconcrete topping, the joist spans shown in Span Table 9.23.4.2.-A or the spacing of the\nmembers shall be reduced to allow for the loads due to the topping.\n\n2) Where a floor is required to support a concrete topping, joist spans are\npermitted to be selected from Span Table 9.23.4.2.-B provided the concrete\na) is 38 to 51 mm thick,\nb) is normal weight,\nc) is placed directly on the subflooring, and\nd) has not less than 20 MPa compressive strength after 28 days.\n\n3) Where a floor is required to support a concrete topping not more than 51 mm\nthick, the allowable beam spans shown in Span Tables 9.23.4.2.-H to 9.23.4.2.-K shall\nbe multiplied by 0.8 or the supported length of the floor joists shall be reduced to\nallow for the loads due to the topping.\n\n_**9-138**_ _**Division B**_ _**National Building Code – 2023 Alberta Edition Volume 2**_",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.4.2."
+                        ],
                         "subsections": {}
                     },
                     "9.23.4.5.": {
@@ -6300,8 +6343,9 @@
                         "text": "1) Where a roof is required to support an additional uniform _dead load_ from\nroofing materials such as concrete roofing tile, or materials other than as specified in\nSection 9.26., such as clay roofing tiles, the additional load shall be allowed for by\nreducing\na) the spans for roof joists and rafters in Span Tables 9.23.4.2.-D to 9.23.4.2.-G,\nor the spacing of the members, and\nb) the spans for ridge beams and lintels in Span Tables 9.23.4.2.-L\nand 9.23.12.3.-A to 9.23.12.3.-D.\n(See Note A-9.23.4.2.)",
                         "tables": {},
                         "referenced_text": [
-                            "9.26.",
-                            "9.23.4.2."
+                            "Table 9.23.4.2.",
+                            "Table 9.23.12.3.",
+                            "9.26."
                         ],
                         "subsections": {}
                     }
@@ -6425,7 +6469,9 @@
                         "title": "Bearing for Beams",
                         "text": "1) Beams shall have even and level bearing and the bearing at end supports shall\nbe not less than 89 mm long, except as stated in the notes to Span Tables 9.23.4.2.-H\nto 9.23.4.2.-K.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.4.2."
+                        ],
                         "subsections": {}
                     },
                     "9.23.8.2.": {
@@ -6461,7 +6507,9 @@
                         "title": "Joists Supported by Beams",
                         "text": "1) Floor joists may be supported on the tops of beams or may be framed into\nthe sides of beams.\n\n2) When framed into the side of a wood beam, joists referred to in Sentence (1)\nshall be supported on\na) joist hangers or other acceptable mechanical connectors, or\nb) not less than 38 mm by 64 mm ledger strips nailed to the side of the beam,\nexcept that 38 mm by 38 mm ledger strips may be used provided each joist\nis nailed to the beam by not less than four 89 mm nails, in addition to the\nnailing for the ledger strip required in Table 9.23.3.4.\n\n3) When framed into the side of a steel beam, joists referred to in Sentence (1) shall\nbe supported on the bottom flange of the beam or on not less than 38 mm by 38 mm\nlumber bolted to the web with not less than 6.3 mm diam bolts spaced not more than\n\n4) Joists referred to in Sentence (3) shall be spliced above the beam with not less\nthan 38 mm by 38 mm lumber at least 600 mm long to support the flooring.\n\n5) Not less than a 12 mm space shall be provided between the splice required in\nSentence (4) and the beam to allow for shrinkage of the wood joists.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.3.4."
+                        ],
                         "subsections": {}
                     },
                     "9.23.9.3.": {
@@ -6478,12 +6526,13 @@
                         "text": "and -B\n\n(See Note A-9.23.4.2.(2).)\n\n1) Except as permitted by Sentence (5), where strapping is specified in Span\nTable 9.23.4.2.-A, it shall be\na) not less than 19 mm by 64 mm, nailed to the underside of floor joists,\nb) located not more than 2 100 mm from each support or other rows of\nstrapping, and\nc) fastened at each end to a sill or header.\n\n2) Where bridging is specified in Span Table 9.23.4.2.-A, it shall consist of not\nless than 19 mm by 64 mm or 38 mm by 38 mm cross bridging located not more than\n\n3) Where bridging and strapping are specified in Span Table 9.23.4.2.-A,\na) bridging shall\ni) comply with Sentence (2), or\nii) consist of 38 mm solid blocking located not more than\n\nsecurely fastened between the joists, and\nb) except as provided in Sentence (5), strapping shall comply with Sentence (1)\nand be installed under the bridging.\n\n4) Bridging specified in Span Table 9.23.4.2.-B shall consist of\na) bridging as described in Sentence (2), or\nb) 38 mm solid blocking located not more than 2 100 mm from each support or\nother rows of bridging and securely fastened between the joists.\n\n5) Strapping described in Sentence (1) and Clause (3)(b) is not required where\na) furring strips complying with Table 9.29.3.1. are fastened directly to the\njoists, or\nb) a panel-type ceiling finish complying with Subsection 9.29.5., 9.29.6., 9.29.7.,\n9.29.8., or 9.29.9. is attached directly to the joists.\n\n6) Where a ceiling attached to wood furring is specified in Span Table 9.23.4.2.-B,\na) the ceiling finish shall consist of gypsum board, plywood or OSB not less\nthan 12.7 mm thick, and\nb) the furring shall be\ni) 19 mm by 89 mm wood furring spaced at not more than\n\nii) 19 mm by 64 mm wood furring spaced at not more than",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.23.4.2.",
+                            "Table 9.29.3.1.",
                             "9.29.5.",
                             "9.29.6.",
                             "9.29.7.",
                             "9.29.8.",
-                            "9.29.9.",
-                            "9.23.4.2."
+                            "9.29.9."
                         ],
                         "subsections": {}
                     },
@@ -6505,7 +6554,9 @@
                         "title": "Support of Tail and Header Joists",
                         "text": "1) When tail joists and header joists are supported by the floor framing, they shall\nbe supported by suitable joist hangers or nailing in accordance with Table 9.23.3.4.\n\n_**National Building Code – 2023 Alberta Edition Volume 2**_ _**Division B**_ _**9-143**_",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.3.4."
+                        ],
                         "subsections": {}
                     },
                     "9.23.9.8.": {
@@ -6513,7 +6564,7 @@
                         "text": "1) Non- _loadbearing_ walls parallel to the floor joists shall be supported by joists\nbeneath the wall or on blocking between the joists.\n\n2) Blocking referred to in Sentence (1) for the support of non- _loadbearing_ walls\nshall be\na) not less than 38 mm by 89 mm lumber, and\nb) except as required for the fastening of walls constructed with required\n_braced wall panels_, spaced not more than 1.2 m apart.\n\n3) Except as provided in Sentence (6), non- _loadbearing_ interior walls at right angles\nto the floor joists are not restricted as to location.\n\n4) _Loadbearing_ interior walls parallel to floor joists shall be supported by beams\nor walls of sufficient strength to safely transfer the specified _live loads_ to the vertical\nsupports.\n\n5) Unless the joist size is designed to support such loads, _loadbearing_ interior walls\nat right angles to floor joists shall be located\na) not more than 900 mm from the joist support where the wall does not\nsupport a floor, and\nb) not more than 600 mm from the joist support where the wall supports one\nor more floors.\n\n6) _Loadbearing_ and non- _loadbearing_ walls constructed with required _braced wall_\n_panels_ shall be continuously supported by floor joists, blocking or _rim joists_ to allow for\nthe required fastening (see Table 9.23.3.4.).",
                         "tables": {},
                         "referenced_text": [
-                            "9.23.3.4."
+                            "Table 9.23.3.4."
                         ],
                         "subsections": {}
                     },
@@ -6521,7 +6572,9 @@
                         "title": "Cantilevered Floor Joists",
                         "text": "1) Floor joists supporting roof loads shall not be cantilevered more than 400 mm\nbeyond their supports where 38 mm by 184 mm joists are used and not more than\n\n2) The cantilevered portions referred to in Sentence (1) shall not support floor\nloads from other _storeys_ unless calculations are provided to show that the design\nresistances of the cantilevered joists are not exceeded.\n\n3) Where cantilevered floor joists described in Sentences (1) and (2) are at right\nangles to the main floor joists, the tail joists in the cantilevered portion shall extend\ninward away from the cantilever support a distance equal to not less than 6 times the\nlength of the cantilever, and shall be end nailed to an interior doubled header joist in\nconformance with Table 9.23.3.4.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.3.4."
+                        ],
                         "subsections": {}
                     }
                 }
@@ -6658,7 +6711,10 @@
                         "title": "Lintel Spans and Sizes",
                         "text": "1) Spans and sizes of wood lintels shall conform to the spans shown in Span\nTables 9.23.4.2.-L and 9.23.12.3.-A to 9.23.12.3.-D\na) for _buildings_ of _residential occupancy_,\nb) where the wall studs exceed 38 mm by 64 mm in size,\nc) where the spans of supported joists do not exceed 4.9 m, and\nd) where the spans of trusses do not exceed 9.8 m.\n\n2) In _loadbearing_ exterior and interior walls of 38 mm by 64 mm framing members,\nlintels shall consist of\na) 64 mm thick members on edge, or\nb) 38 mm thick and 19 mm thick members fastened together with a double row\nof nails not less than 63 mm long and spaced not more than 450 mm apart.\n\n3) Lintels referred to in Sentence (2)\na) shall be not less than 50 mm greater in depth than those shown in Span\nTables 9.23.4.2.-L and 9.23.12.3.-A to 9.23.12.3.-D for the maximum spans\nshown, and\nb) shall not exceed 2.24 m in length.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.4.2.",
+                            "Table 9.23.12.3."
+                        ],
                         "subsections": {}
                     }
                 }
@@ -6674,9 +6730,9 @@
                         "text": "(See Note A-9.23.13.1.)\n\n1) This Article applies in locations where the seismic spectral acceleration, S a (0.2),\nis not more than 0.70 and the 1-in-50 hourly wind pressure is less than 0.80 kPa.\n\n2) Bracing to resist lateral loads shall be designed and constructed as follows:\na) exterior walls shall be\ni) clad with panel-type cladding in accordance with\nSection 9.27.,\nii) sheathed with plywood, OSB, waferboard, fibreboard,\ngypsum board or diagonal lumber sheathing complying\nwith Subsection 9.23.17. and fastened in accordance with\nTable 9.23.3.5.-A, or\niii) finished on the interior with a panel-type material in\naccordance with the requirements of Section 9.29., or\nb) in accordance with\ni) Articles 9.23.13.4. to 9.23.13.7.,\nii) Part 4, or\niii) good engineering practice such as that provided in CWC\n2014, “Engineering Guide for Wood Frame Construction.”\n\n_**9-148**_ _**Division B**_ _**National Building Code – 2023 Alberta Edition Volume 2**_",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.23.3.5.",
                             "9.27.",
                             "9.23.17.",
-                            "9.23.3.5.",
                             "9.29.",
                             "9.23.13.4.",
                             "9.23.13.7."
@@ -6708,7 +6764,9 @@
                         "title": "Braced Wall Bands",
                         "text": "(See Note A-9.23.13.4.)\n\n1) _Braced wall bands_ shall\na) be full _storey_ height,\nb) be not more than 1.2 m wide,\nc) lap at both ends with another _braced wall band_,\nd) be aligned with _braced wall bands_ on _storeys_ above and below, and\ne) conform to the spacing and dimensions given in Table 9.23.13.5.\n\n2) The perimeter of the _building_ shall be located within _braced wall bands_ .\n\n3) For split-level _buildings_, a _braced wall band_ shall be located where there is a\nchange in floor level greater than the depth of one floor joist.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.13.5."
+                        ],
                         "subsections": {}
                     },
                     "9.23.13.5.": {
@@ -6721,6 +6779,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.23.3.4.",
                             "9.23.13.7.",
                             "9.23.13.3.",
                             "9.23.9.1."
@@ -6737,10 +6796,10 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.23.3.4.",
+                            "Table 9.23.3.5.",
                             "9.27.",
-                            "9.23.3.4.",
                             "9.23.16.",
-                            "9.23.3.5.",
                             "9.29."
                         ],
                         "subsections": {}
@@ -6750,9 +6809,10 @@
                         "text": "1) Except as provided in Sentences (2) and (3), one exterior wall of the uppermost\n_storey_ in each orthogonal direction may be set back from the exterior wall of the _storey_\nbelow, provided the adjacent interior _braced wall band_ of the _storey_ below the setback\na) is spaced not more than 10.6 m from the exterior wall of the _storey_ below\nthe setback wall,\nb) consists of _braced wall panels_ that are constructed of a wood-based material\nin conformance with Sentence 9.23.13.6.(2),\nc) extends to the _foundation_, and\nd) is not taken into consideration when providing _braced wall panels_ constructed\nof a wood-based material at spacing intervals of not more than 15 m as per\nSentence 9.23.13.6.(6).\n\n2) Where the exterior wall of the uppermost _storey_ is set back from the exterior\nwall of the _storey_ below, the roof and floor space supporting the setback wall shall be\nsheathed with a wood-based material between the exterior wall of the _storey_ below the\nsetback and the adjacent interior _braced wall bands_ of the _storey_ below the setback.\n\n3) Where the exterior wall of the uppermost _storey_ is set back from the exterior\nwall of the _storey_ below, the exterior walls perpendicular to the setback wall shall\na) have their top plate connected with nails that are spaced at no greater than\nhalf the spacing required in Table 9.23.3.4., and\nb) have their top plate splices fastened with twice the number of nails specified\nin Sentences 9.23.11.4.(4) and (5).\n\n4) The maximum distance between adjacent required _braced wall panels_ in a _braced_\n_wall band_, measured from the edge of the panels, may be increased to 7.3 m provided\nthat, throughout the height of the _building_, the length of any _braced wall panel_ within\nthe _braced wall band_ is not less than 1.2 m.\n\n5) The maximum spacing between the centre lines of required _braced wall bands_\ngiven in Table 9.23.13.5. may be increased from 7.6 m to no more than 10.6 m, provided\nthat the interior _braced wall band_ whose spacing is being increased is replaced with\nan interior _braced wall band_ that\na) consists of _braced wall panels_ that are constructed of a wood-based material\nin conformance with Sentence 9.23.13.6.(2),\nb) extends to the _foundation_, and\nc) is not taken into consideration when providing _braced wall panels_ constructed\nof a wood-based material at spacing intervals no greater than 15 m as per\nSentence 9.23.13.6.(6).\n\n6) For each orthogonal direction of the _building_, the length of required _braced wall_\n_panels_ of one exterior wall given in Table 9.23.13.5. may be reduced from 40% to no\n\n_**9-152**_ _**Division B**_ _**National Building Code – 2023 Alberta Edition Volume 2**_\n\nless than 25% of the length of the _braced wall band_, provided an additional parallel and\nadjacent interior _braced wall band_ is constructed that\na) is spaced not more than 10.6 m from the exterior wall,\nb) consists of _braced wall panels_ that are constructed of a wood-based material\nin conformance with Sentence 9.23.13.6.(2) and whose lengths sum to no\nless than 25% of the length of the _braced wall band_,\nc) extends to the _foundation_, and\nd) is not taken into consideration when providing _braced wall panels_ constructed\nof a wood-based material at spacing intervals no greater than 15 m as per\nSentence 9.23.13.6.(6).\n\n7) Where the length of required _braced wall panels_ of an exterior wall is reduced as\ndescribed in Sentence (6), the ratio of the length of _braced wall panels_ in the respective\nupper _braced wall bands_ to the length of _braced wall panels_ in the reduced exterior _braced_\n_wall band_ shall not exceed 2.",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.23.3.4.",
+                            "Table 9.23.13.5.",
                             "9.23.13.6.",
-                            "9.23.11.4.",
-                            "9.23.13.5."
+                            "9.23.11.4."
                         ],
                         "subsections": {}
                     }
@@ -6789,7 +6849,9 @@
                         "title": "Location and Attachment of Rafters",
                         "text": "1) Rafters shall be located directly opposite each other and tied together at the\npeak, or may be offset by their own thickness if nailed to a ridge board not less than\n\n2) Except as permitted in Sentence (3), framing members shall be connected by\ngusset plates or nailing at the peak in conformance with Table 9.23.3.4.\n\n3) Where the roof framing on opposite sides of the peak is assembled separately,\nsuch as in the case of factory-built houses, the roof framing on opposite sides is\npermitted to be fastened together with galvanized-steel strips not less than 200 mm by\n\nthe framing by at least two 63 mm nails.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.3.4."
+                        ],
                         "subsections": {}
                     },
                     "9.23.14.5.": {
@@ -6827,6 +6889,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.23.4.2.",
                             "9.4.1.1."
                         ],
                         "subsections": {}
@@ -6844,7 +6907,9 @@
                         "title": "Ceiling Joists Supporting Roof Load",
                         "text": "1) Except as permitted in Sentence (2), ceiling joists supporting part of the roof\nload from the rafters shall be not less than 25 mm greater in depth than required for\nceiling joists not supporting part of the roof load.\n\n2) When the roof slope is 1 in 4 or less, the ceiling joist sizes referred to\nin Sentence (1) shall be determined from Span Tables 9.23.4.2.-C to 9.23.4.2.-F\nand 9.23.4.2.-L for roof joists.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.4.2."
+                        ],
                         "subsections": {}
                     },
                     "9.23.14.11.": {
@@ -6909,7 +6974,9 @@
                                 "table_content": "|Col1|Table 9.23.15.5.-A Thickness of Subflooring Forming Part of Sentences 9.23.15.5.(1) and 9.23.16.7.(1)|Col3|Col4|Col5|\n|---|---|---|---|---|\n|Maximum Spacing of<br>Supports, mm|Minimum Thickness, mm|Minimum Thickness, mm|Minimum Thickness, mm|Minimum Thickness, mm|\n|Maximum Spacing of<br>Supports, mm|Plywood and OSB, O-2<br>Grade|OSB, O-1 Grade, and<br>Waferboard, R-1 Grade|Particleboard|Lumber|\n|400<br>500<br>600|15.5<br>15.5<br>18.5|15.9<br>15.9<br>19.0|15.9<br>19.0<br>25.4|17.0<br>19.0<br>19.0|"
                             }
                         },
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.15.5."
+                        ],
                         "subsections": {}
                     },
                     "9.23.15.6.": {
@@ -6991,7 +7058,10 @@
                                 "table_content": "|Col1|Table 9.23.16.7.-A Thickness of Roof Sheathing Forming Part of Sentence 9.23.16.7.(2)|Col3|Col4|Col5|Col6|\n|---|---|---|---|---|---|\n|Maximum Spacing<br>of Supports, mm|Minimum Thickness, mm|Minimum Thickness, mm|Minimum Thickness, mm|Minimum Thickness, mm|Minimum Thickness, mm|\n|Maximum Spacing<br>of Supports, mm|Plywood, and OSB, O-2 Grade|Plywood, and OSB, O-2 Grade|OSB, O-1 Grade, and Waferboard, R-1 Grade|OSB, O-1 Grade, and Waferboard, R-1 Grade|Lumber|\n|Maximum Spacing<br>of Supports, mm|Edges Supported|Edges Unsupported|Edges Supported|Edges Unsupported|Edges Unsupported|\n|300<br>400<br>600|7.5<br>7.5<br>9.5|7.5<br>9.5<br>12.5|9.5<br>9.5<br>11.1|9.5<br>11.1<br>12.7|17.0<br>17.0<br>19.0|"
                             }
                         },
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.23.15.5.",
+                            "Table 9.23.16.7."
+                        ],
                         "subsections": {}
                     }
                 }
@@ -7023,6 +7093,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.23.17.2.",
                             "9.25.5.1.",
                             "9.27.5.1."
                         ],
@@ -7505,7 +7576,9 @@
                                 "table_content": "|Col1|Table 9.26.2.1.-A Materials for Preparation of the Substrate for Roofing Forming Part of Sentence 9.26.2.1.(1)|\n|---|---|\n|Type of Material|Standards|\n|Sheathing membranes<br>Primers|CAN/CGSB-51.32-M, “Sheathing, Membrane, Breather Type”<br>CGSB 37-GP-9Ma, “Primer, Asphalt, Unfilled, for Asphalt Roofing, Dampproofing and Waterproofing”|"
                             }
                         },
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.26.2.1."
+                        ],
                         "subsections": {}
                     },
                     "9.26.2.2.": {
@@ -7513,6 +7586,7 @@
                         "text": "1) Materials listed in Tables 9.26.2.1.-A and 9.26.2.1.-B shall be installed in\nconformance with the manufacturer's written instructions. (See Sentence 1.5.1.2.(1) of\nDivision A.)",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.26.2.1.",
                             "1.5.1.2."
                         ],
                         "subsections": {}
@@ -8299,6 +8373,7 @@
                         "text": "1) Except as provided in Article 9.27.3.6., where no sheathing is used, at\nleast 2 layers of sheathing membrane shall be applied beneath the cladding. (See\nArticle 9.23.17.1. and Note A-9.27.3.5.(1).)\n\n2) All joints in the sheathing membrane required in Sentence (1) shall occur over\nframing, and the membrane shall be fastened to the framing with roofing nails or\nstaples spaced not more than 150 mm along the edges of the outer layer of sheathing\nmembrane.\n\n_**National Building Code – 2023 Alberta Edition Volume 2**_ _**Division B**_ _**9-185**_\n\n3) Wall sheathing is permitted to be used in lieu of one layer of sheathing\nmembrane required in Sentence (1), and its thickness need not conform to\nTable 9.23.17.2.-A.",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.23.17.2.",
                             "9.27.3.6.",
                             "9.23.17.1."
                         ],
@@ -8402,6 +8477,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.27.5.4.",
                             "9.27.5.7.",
                             "9.20.5."
                         ],
@@ -8624,7 +8700,9 @@
                         "title": "Thickness",
                         "text": "1) OSB conforming to O-2 grade shall be not less than 6.0 mm thick where applied\ndirectly to sheathing.\n\n2) OSB conforming to O-2 grade applied directly to framing or over furring\nstrips shall conform to the thickness shown for plywood in Table 9.27.8.2. (See\nNote A-9.27.10.2.(2).)\n\n3) OSB conforming to O-1 grade and waferboard conforming to R-1 grade shall be\nnot less than 7.9 mm thick where applied directly to sheathing.\n\n_**National Building Code – 2023 Alberta Edition Volume 2**_ _**Division B**_ _**9-193**_\n\n4) Where applied directly to framing or over furring strips, OSB conforming to\nO-1 grade and waferboard conforming to R-1 grade shall be not less than\na) 9.5 mm thick on supports spaced not more than 400 mm o.c., and\nb) 12.7 mm thick on supports spaced not more than 600 mm o.c.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.27.8.2."
+                        ],
                         "subsections": {}
                     },
                     "9.27.10.3.": {
@@ -9157,9 +9235,9 @@
                         "text": "1) For single-layer application on a ceiling, screws shall be spaced not more than\n\n2) Where the ceiling sheets are supported by the wall sheets around the perimeter\nof the ceiling, this support may be considered as equivalent to screwing at this location.\n\n3) Except as required by Sentence (4), for single-layer application on walls, screws\nshall be spaced\na) not more than 300 mm o.c. on vertical wall supports where the supports are\nmore than 400 mm o.c., or\nb) not more than 400 mm o.c. on vertical wall supports where the supports are\nnot more than 400 mm o.c.\n\n4) Except as provided in Sentence (5), for single-layer application on walls, where\ngypsum board provides required bracing in _braced wall panels_, lateral support for studs,\nor fire protection, screws shall be spaced not more than 300 mm o.c. on\na) vertical wall supports, and\nb) top and bottom plates.\n(See Article 9.23.10.2. and Section 9.10.)\n\n5) Where a _fire-resistance rating_ is determined based on Table 9.10.3.1.-A,\nSentence (4) need not apply for the purpose of fire protection.\n\n6) Screws shall be located not less than 10 mm from the edge of the board.\n\n7) Screws shall be driven so that the heads do not puncture the paper.",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.10.3.1.",
                             "9.23.10.2.",
-                            "9.10.",
-                            "9.10.3.1."
+                            "9.10."
                         ],
                         "subsections": {}
                     },
@@ -9194,7 +9272,9 @@
                         "title": "Grooved Plywood",
                         "text": "1) Except as permitted in Sentence (2), where plywood for interior finish is\ngrooved, the grooves shall not extend through the face ply and into the plies below the\nface ply unless the groove is supported by framing or furring.\n\n2) If the grain of the face ply is at right angles to the supporting members, the\ngroove is permitted to extend into plies below the face ply provided the thickness of\nthe plywood exceeds the value shown in Table 9.29.6.1. by an amount equal to not less\nthan the depth of penetration of the grooves into the plies below the face ply.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.29.6.1."
+                        ],
                         "subsections": {}
                     },
                     "9.29.6.3.": {
@@ -9304,7 +9384,9 @@
                         "title": "Minimum Thickness",
                         "text": "1) Except as provided in Sentences (2) and (3), the minimum thickness of O-2\ngrade OSB used as an interior finish shall conform to that shown for plywood in\nTable 9.29.6.1.\n\n2) Thicknesses listed in Table 9.29.6.1. shall permit a manufacturing tolerance of\n−0.4 mm.\n\n3) No minimum thickness is required where O-2 grade OSB is applied over\ncontinuous backing.\n\n4) OSB conforming to O-1 grade, waferboard conforming to R-1 grade and\nparticleboard shall be\na) not less than 6.35 mm thick on supports not more than 400 mm o.c.,\nb) not less than 9.5 mm thick on supports not more than 600 mm o.c., and\nc) not less than 6.35 mm thick on supports not more than 600 mm o.c. in walls\nwhere blocking is provided at midwall height.\n\n5) OSB conforming to CSA O325, “Construction sheathing,” shall meet the\nminimum panel mark of\na) W16, on supports not more than 400 mm o.c.,\nb) W24, on supports not more than 600 mm o.c., and\nc) W16, on supports not more than 600 mm o.c. where blocking is provided at\nmid-wall height.\n\n_**9-204**_ _**Division B**_ _**National Building Code – 2023 Alberta Edition Volume 2**_",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.29.6.1."
+                        ],
                         "subsections": {}
                     },
                     "9.29.9.3.": {
@@ -9928,7 +10010,7 @@
                         "text": "(See Note A-9.32.3.7.)\n\n1) Except as provided in Sentences (2) and (3), a supplemental exhaust fan with a\nrated capacity not less than 50 L/s shall be installed in each kitchen.\n\n2) A supplemental exhaust fan is not required in a kitchen where the only exhaust\nair intake for the principal ventilation fan is located in that kitchen.\n\n3) A supplemental exhaust fan is not required in a kitchen where the principal\nventilation fan draws from that kitchen and other rooms, provided\na) the principal ventilation fan can be switched to a high exhaust rate equal\nto not less than 2.5 times the minimum normal operating exhaust capacity\nspecified in Table 9.32.3.3., and\nb) the high exhaust rate of the principal ventilation fan, as described in\nClause (a), is activated by a manual switch in the kitchen labeled “KITCHEN\nEXHAUST.”\n\n4) Where an exhaust air intake for the principal ventilation fan is not located in a\nbathroom or water-closet room, a supplemental exhaust fan with a rated capacity not\nless than 25 L/s shall be installed in that bathroom or water-closet room.\n\n5) Where the intake for a supplemental exhaust fan other than a cooking _appliance_\nexhaust fan serving a _cooktop_ is installed in a kitchen, it shall be installed in the ceiling\nor on the wall at not less than 2 m above the floor.\n\n6) A supplemental exhaust fan required by this Article shall be controlled by a\nmanual switch located in the room served by the fan.\n\n7) Where a kitchen or bathroom is exempted from the requirement to install a\nsupplemental exhaust fan by virtue of Sentence (2) or (3), the principal ventilation fan\nshall be controlled by a manual switch located in the kitchen or bathroom and wired in\nparallel with the manual switch required by Sentence 9.32.3.3.(5).\n\n8) Where a supplemental exhaust fan required by this Article is controlled by a\ndehumidistat or other automatic control in addition to the manual switch required by\nSentence (6), the manual switch shall be capable of activating the fan regardless of the\nsetting of the automatic control.",
                         "tables": {},
                         "referenced_text": [
-                            "9.32.3.3."
+                            "Table 9.32.3.3."
                         ],
                         "subsections": {}
                     },
@@ -9936,7 +10018,9 @@
                         "title": "Protection Against Depressurization",
                         "text": "(See Note A-9.32.3.8.)\n\n1) This Article applies to\na) _dwelling units_ that contain a fuel-fired _space-heating appliance_ or fuel-fired\nwater-heating _appliance_ of other than _direct-vented_ or _mechanically vented_\ntypes, and\nb) ancillary spaces that contain an exhaust device, where the space is not\nwithin a _dwelling unit_ in a house with a _secondary suite_ and where the house\nwith a _secondary suite_ contains a fuel-fired _space-heating appliance_ or fuel-fired\nwater-heating _appliance_ of other than _direct-vented_ or _mechanically vented_\ntypes.\n\n2) Except as provided in Sentences (6) to (8), any mechanical air exhausting\ndevice, other than the principal ventilation fan operating at a rate not greater than the\nmaximum permitted by Table 9.32.3.3., shall be provided with outdoor makeup air\nsupplied by a fan rated to deliver outdoor air to the _dwelling unit_ at a rate\na) not less than the exhaust capacity of the device, and\nb) not greater than that exhaust capacity plus 10%.\n\n3) An outdoor makeup air supply fan required by Sentence (2) shall be wired so\nthat it is activated whenever the device for which it supplies outdoor makeup air is\nactivated.\n\n_**9-218**_ _**Division B**_ _**National Building Code – 2023 Alberta Edition Volume 2**_\n\n4) The outdoor makeup air required by Sentence (2) shall be\na) introduced to a normally unoccupied area in the _dwelling unit_, or\nb) tempered to at least 12°C before being introduced to occupied areas or to\na _supply duct_ system.\n\n5) If the outdoor makeup air required by Sentence (2) is not tempered upstream\nof the supply fan, the supply fan required by Sentence (2) shall be approved by the\nmanufacturer for the handling of untempered outdoor air.\n\n6) The provision of makeup air as described in Sentence (2) is not required in a\n_dwelling unit_ with solid-fuel-burning _appliances_, where all other fuel-fired _appliances_\nare _direct-vented_ or _mechanically vented_ .\n\n7) The provision of makeup air as described in Sentence (2) is not required if it\ncan be shown using the test procedures in CAN/CGSB-51.71, “Depressurization Test,”\nthat the maximum depressurization levels to which fuel-fired space- or water-heating\n_appliances_ and their venting systems will be exposed will not exceed the limits set out\nin CAN/CGSB-51.71 for the categories of fuel-fired _appliances_ and venting systems\ninstalled in the _dwelling unit_ .\n\n8) The provision of makeup air as described in Sentence (2) is not required for\nmechanical exhausting devices operating a subfloor depressurization system installed\nfor the purpose of reducing the risk of radon ingress.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.32.3.3."
+                        ],
                         "subsections": {}
                     },
                     "9.32.3.9.": {
@@ -9960,6 +10044,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.32.3.10.",
                             "9.32.3.3.",
                             "9.32.3.8."
                         ],
@@ -9979,6 +10064,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.32.3.11.",
                             "9.33.6.2.",
                             "9.36.3.2.",
                             "9.33.4."
@@ -10005,7 +10091,9 @@
                                 "table_content": "|Distance Between Exhaust Outlet and Soffit, mm|Total Width of Unvented or Blocked Soffit Centred Over<br>Location of Exhaust Outlet, mm|\n|---|---|\n|1 to 300<br>301 to 600<br>601 to 900<br>901 to 1 200<br>1 201 to 1 500<br>1 501 to 1 799|3 600<br>3 400<br>3 100<br>2 700<br>2 000<br>1 000|"
                             }
                         },
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.32.3.13."
+                        ],
                         "subsections": {}
                     }
                 }
@@ -10835,11 +10923,11 @@
                         "text": "1) Except as provided in Sentences (2) to (10) and in Sentence 9.36.2.4.(3)\nregarding balcony and canopy slabs, and except for clearances around components\nrequired for fire safety reasons, interior _building_ components that meet _building_\nenvelope components and major structural members that partly penetrate the _building_\nenvelope shall not break the continuity of the insulation and shall not decrease\nthe effective thermal resistance at their projected area to less than that required in\nArticles 9.36.2.6. and 9.36.2.8. (See Note A-9.36.2.5.(1).)\n\n2) Where an interior wall, _foundation_ wall, _firewall_, _party wall_ or structural element\npenetrates an exterior wall or insulated roof or ceiling and breaks the continuity of the\nplane of insulation, the penetrating element shall be insulated\na) on both of its sides, inward or outward from the _building_ envelope,\nfor a distance equal to 4 times its uninsulated thickness to an effective\n\n_**National Building Code – 2023 Alberta Edition Volume 2**_ _**Division B**_ _**9-241**_\n\nthermal resistance not less than that required for exterior walls as stated in\nTable 9.36.2.6.-A or 9.36.2.6.-B,\nb) within the plane of insulation of the penetrated element to an effective\nthermal resistance not less than 60% of that required for the penetrated\nelement, or\nc) within itself to an effective thermal resistance not less than that required\nfor the penetrated element.\n(See Note A-9.36.2.5.(2).)\n\n3) Where a masonry fireplace or flue penetrates an exterior wall and breaks\nthe continuity of the plane of insulation, it shall be insulated within the plane of\ninsulation of the wall or within itself to an effective thermal resistance not less than\n55% of that required for the exterior wall as stated in Table 9.36.2.6.-A or 9.36.2.6.-B\n(See Note A-9.36.2.5.(3).)\n\n4) Where an ornamentation or appendage penetrates an exterior wall and breaks\nthe continuity of the plane of insulation, the penetrating element shall be insulated\na) on both of its sides, inward or outward from the _building_ envelope, for a\ndistance equal to 4 times the insulated thickness of the exterior wall to an\neffective thermal resistance not less than that required for the wall as stated\nin Table 9.36.2.6.-A or 9.36.2.6.-B,\nb) within the plane of insulation of the wall to an effective thermal resistance\nnot less than 55% of that required for the exterior wall, or\nc) within the penetrating element to an effective thermal resistance not less\nthan that required for the exterior wall.\n\n5) Except as provided in Sentences (9) and (10), where two planes of insulation\nare separated by a _building_ envelope assembly and cannot be physically joined, one of\nthe planes of insulation shall be extended for a distance equal to at least 4 times the\nthickness of the assembly separating the two planes. (See Note A-9.36.2.5.(5).)\n\n6) Except as provided in Sentence (7) and Article 9.36.2.11., where mechanical,\nplumbing or electrical system components, such as pipes, ducts, conduits, cabinets,\nchases, panels or recessed heaters, are placed within and parallel to a wall assembly\nrequired to be insulated, the effective thermal resistance of that wall at the\nprojected area of the system component shall be not less than that required by\nTables 9.36.2.6.-A, 9.36.2.6.-B, 9.36.2.8.-A and 9.36.2.8.-B (See Note A-9.36.2.5.(6).)\n\n7) The effective thermal resistance of a wall at the projected areas of plumbing and\nelectrical system components, such as plumbing vent pipes, conduits, and electrical\noutlet and switch boxes, need not comply with Sentence (6), provided\na) the effective thermal resistance at the projected area of the system\ncomponent is not less than 60% of that required in Articles 9.36.2.6.\nand 9.36.2.8., and\nb) the insulation is continuous on the cold side behind the system component.\n\n8) Except as permitted by Article 9.36.2.11., where mechanical ducts, plumbing\npipes, conduits for electrical services or communication cables are placed within the\ninsulated portion of a floor or ceiling assembly, the effective thermal resistance of\nthe assembly at the projected area of the ducts, pipes, conduits or cables shall be not\nless than 2.78 (m [2] ×K)/W.\n\n9) Joints and junctions between walls and other _building_ envelope components\nshall be insulated in a manner that provides an effective thermal resistance that is\nno less than the lower of the minimum values required for the respective adjoining\ncomponents. (See Note A-9.36.2.5.(9).)\n\n10) Sentence (1) does not apply where the continuity of the insulation is interrupted\na) between the insulation in the _foundation_ wall and that of the floor slab,\nb) by an integral perimeter footing of a slab-on-grade (see Sentences 9.25.2.3.(5)\nand 9.36.2.8.(8)), or\nc) at the horizontal portion of a _foundation_ wall that supports masonry veneer\nand is insulated on the exterior.\n\n_**9-242**_ _**Division B**_ _**National Building Code – 2023 Alberta Edition Volume 2**_",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.36.2.6.",
                             "9.36.2.4.",
-                            "9.36.2.6.",
-                            "9.36.2.8.",
                             "9.36.2.11.",
-                            "9.25.2.3."
+                            "9.25.2.3.",
+                            "9.36.2.8."
                         ],
                         "subsections": {}
                     },
@@ -10857,6 +10945,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.36.2.6.",
                             "9.36.2.5.",
                             "9.36.2.11.",
                             "9.36.3.9.",
@@ -10883,6 +10972,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.36.2.7.",
                             "9.36.2.11.",
                             "1.1.3.1.",
                             "9.36.2.2."
@@ -10903,6 +10993,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.36.2.8.",
                             "9.36.2.5.",
                             "9.36.3.9.",
                             "1.1.3.1.",
@@ -11029,6 +11120,7 @@
                         "text": "1) This Article applies where a self-contained mechanical ventilation system\nis installed whose principal exhaust component is equipped with heat-recovery\ncapability. (See Note A-9.36.3.9.(1).)\n\n2) Where an integrated mechanical system (IMS) with a heat-recovery ventilator\nprovides the principal exhaust ventilation, the IMS shall\na) be tested in accordance with CSA P.10, “Performance of Integrated\nMechanical Systems for Residential Heating and Ventilation,” and\nb) have a minimum overall thermal performance factor conforming to\nTable 9.36.3.10.\n\n3) When tested in conformance with the low-temperature thermal and ventilation\ntest methods described in CAN/CSA-C439, “Standard laboratory methods of test for\n\n_**National Building Code – 2023 Alberta Edition Volume 2**_ _**Division B**_ _**9-253**_\n\nrating the performance of heat/energy-recovery ventilators,” heat-recovery ventilators\ndescribed in Sentence (1) shall have a sensible heat-recovery efficiency of\na) at least 60% at an outside air test temperature of 0°C for locations with a\n2.5% January design temperature greater than or equal to –10°C, and\nb) at least 60% at an outside air test temperature of 0°C and at least 55% at\nan outside air test temperature of –25°C for locations with a 2.5% January\ndesign temperature less than –10°C.\n(See Note A-9.36.3.9.(3).)\n\n4) The requirements of Sentence (3) shall be met using a principal ventilation rate\nnot less than that required in Section 9.32. (See Note A-9.36.3.9.(3).)",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.36.3.10.",
                             "9.32."
                         ],
                         "subsections": {}
@@ -11201,6 +11293,7 @@
                         "text": "1) The energy model calculations shall account for the energy consumption of\neach heating, ventilating and, where installed, cooling system for each hour of the\nyear. (See Note A-9.36.5.7.(1).)\n\n2) Each heating system and, where installed, cooling system shall be accounted for\nseparately in the energy model calculations.\n\n3) _Conditioned spaces_ in both the reference and proposed houses shall be modeled\nas being\na) heated, where only heating systems are provided in the proposed house,\nb) cooled, where only cooling systems are provided in the proposed house, or\nc) heated and cooled, where complete heating and cooling systems are\nprovided in the proposed house.\n\n4) The performance requirements stated in Table 9.36.3.10. shall be used in the\nenergy model calculations.\n\n5) Where duct and piping losses are accounted for in the energy model\ncalculations, they shall be included for both the proposed and reference houses and\ncalculated the same way for both houses. (See Note A-9.36.5.7.(5).)\n\n6) The same time periods shall be used in the simulation of the operation of the\nventilation system for both the proposed and reference houses.\n\n7) During the heating season, any solar and internal heat gains that cause an\nincrease in space temperature beyond 5.5°C above the setpoint shall be\na) excluded from the energy model calculations, or\nb) calculated as being vented from the house.\n\n8) The energy model calculations shall account for the part-load performance of\nequipment, including electrical consumption.\n\n9) The energy model calculations shall account for the heat-recovery efficiency of\nheat-recovery ventilators using a minimum of 2 data test points derived from testing in\naccordance with Clause 9.36.3.9.(3)(a) or (b), as applicable.",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.36.3.10.",
                             "9.36.3.9."
                         ],
                         "subsections": {}
@@ -11214,7 +11307,9 @@
                                 "table_content": "|Col1|Table 9.36.5.8. Default Schedule of Service Water Heating Use Forming Part of Sentence 9.36.5.8.(6)|Col3|Col4|Col5|Col6|Col7|Col8|Col9|Col10|Col11|Col12|Col13|\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n|Type of Small<br>Residential_ Building_|Distribution of Hourly Draws on Service Water Heating, L/h|Distribution of Hourly Draws on Service Water Heating, L/h|Distribution of Hourly Draws on Service Water Heating, L/h|Distribution of Hourly Draws on Service Water Heating, L/h|Distribution of Hourly Draws on Service Water Heating, L/h|Distribution of Hourly Draws on Service Water Heating, L/h|Distribution of Hourly Draws on Service Water Heating, L/h|Distribution of Hourly Draws on Service Water Heating, L/h|Distribution of Hourly Draws on Service Water Heating, L/h|Distribution of Hourly Draws on Service Water Heating, L/h|Distribution of Hourly Draws on Service Water Heating, L/h|Distribution of Hourly Draws on Service Water Heating, L/h|\n|Houses without a<br>_secondary suite_<br>(97 L/day/house)|12 a.m.|1 a.m.|2 a.m.|3 a.m.|4 a.m.|5 a.m.|6 a.m.|7 a.m.|8 a.m.|9 a.m.|10 a.m.|11 a.m.|\n|Houses without a<br>_secondary suite_<br>(97 L/day/house)|0|0|0|0|0|0|0|2.2|8.6|12.9|23.7|11.9|\n|Houses without a<br>_secondary suite_<br>(97 L/day/house)|12 p.m.|1 p.m.|2 p.m.|3 p.m.|4 p.m.|5 p.m.|6 p.m.|7 p.m.|8 p.m.|9 p.m.|10 p.m.|11 p.m.|\n|Houses without a<br>_secondary suite_<br>(97 L/day/house)|3.2|1.1|2.2|5.4|9.7|6.5|6.5|2.2|1.1|0|0|0|\n|Each_ dwelling_<br>_unit_ in residential<br>_buildings_ with two or<br>more_ dwelling units_<br>(65 L/day/_dwelling_<br>_unit_)|12 a.m.|1 a.m.|2 a.m.|3 a.m.|4 a.m.|5 a.m.|6 a.m.|7 a.m.|8 a.m.|9 a.m.|10 a.m.|11 a.m.|\n|Each_ dwelling_<br>_unit_ in residential<br>_buildings_ with two or<br>more_ dwelling units_<br>(65 L/day/_dwelling_<br>_unit_)|0|0|0|0|0|0|0|1.4|5.7|8.6|15.8|7.9|\n|Each_ dwelling_<br>_unit_ in residential<br>_buildings_ with two or<br>more_ dwelling units_<br>(65 L/day/_dwelling_<br>_unit_)|12 p.m.|1 p.m.|2 p.m.|3 p.m.|4 p.m.|5 p.m.|6 p.m.|7 p.m.|8 p.m.|9 p.m.|10 p.m.|11 p.m.|\n|Each_ dwelling_<br>_unit_ in residential<br>_buildings_ with two or<br>more_ dwelling units_<br>(65 L/day/_dwelling_<br>_unit_)|2.2|0.7|1.4|3.6|6.5|4.3|4.3|1.4|0.7|0|0|0|"
                             }
                         },
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.36.4.2."
+                        ],
                         "subsections": {}
                     },
                     "9.36.5.9.": {
@@ -11279,10 +11374,11 @@
                         "text": "1) The energy model calculations for the reference house shall include the same\nvalues as those used for the proposed house with regard to\na) the gross area of above-ground portion of _foundation_ walls,\nb) _soil_ conditions,\nc) the orientation of the _foundation_, and\nd) the ratio of fenestration area to opaque area of doors.\n\n2) The energy model calculations for the reference house shall use the following\nvalues:\na) 0.060 MJ/(m [2] ×°C) for thermal mass,\nb) a solar absorptance of 0.4 for the exterior walls, roofs and exposed floors,\nc) 0.26 for the solar heat gain coefficient of fenestration,\n\n_**9-268**_ _**Division B**_ _**National Building Code – 2023 Alberta Edition Volume 2**_\n\nd) an airtightness of\ni) 3.0 air changes per hour at 50 Pa pressure differential\nfor attached zones, where the airtightness used for\nthe proposed house is determined in accordance with\nSentence 9.36.6.3.(1) using the unguarded method, and\nii) 2.5 air changes per hour at 50 Pa pressure differential\notherwise, and\ne) the pressure exponent used for the proposed house where this value is less\nthan 0.67, otherwise, 0.67.\n\n3) The effective thermal resistance and overall thermal transmittance values, as\napplicable, used in the energy model calculations for the reference house shall be\ndetermined for the applicable heating degree-day zone in accordance with\na) Table 9.36.2.6.-A for walls, ceilings below attics, roof assemblies and _rim_\n_joists_,\nb) Table 9.36.2.7.-A for doors, and\nc) Table 9.36.2.8.-A for below- _grade_ walls and slabs-on-ground.\n\n4) Except as provided in Sentences (5) and (6), the exterior walls, roof-ceiling\nassembly, doors, walls, exposed floors, and floors of the reference house that are in\ncontact with the ground shall have the same area as those of the proposed house.\n\n5) The area and orientation of fenestration and doors of the reference house shall\nbe modeled as being equally distributed on all sides of the house.\n\n6) The gross wall area and the area of fenestration and doors of the reference\nhouse shall be determined in accordance with Article 9.36.2.3.\n\n7) Windows and other glazed components in the reference house shall have\na maximum overall thermal transmittance as required in Table 9.36.2.7.-A for the\napplicable heating degree-day category.\n\n8) The configuration of insulation in assemblies of the reference house that are in\ncontact with the ground shall be modeled as conforming to Article 9.36.2.8.\n\n9) _Foundation_ walls shall be modeled using the applicable effective thermal\nresistance values in Table 9.36.2.8.-A and as conforming to Sentence 9.36.2.8.(2).\n\n10) The fenestration and door area to gross wall area ratio (FDWR) of the reference\nhouse shall be\na) for houses containing one or two _dwelling units_,\ni) as per the proposed house, where its FDWR is between 17%\nand 22%,\nii) 17%, where the FDWR of the proposed house is less than\n17%, or\niii) 22%, where the FDWR of the proposed house is greater\nthan 22%, and\nb) for _buildings_ of _residential occupancy_ containing more than two _dwelling units_,\ni) the FDWR determined in Clause (a) for the areas\ndetermined in accordance with Sentence 9.36.2.3.(2) and,\nwhere the FDWR determined in accordance with the\ncalculation in Sentence 9.36.2.3.(3) only does not exceed\n40%, or\nii) 40% of the gross wall area enclosing _conditioned space_ where\nthe area of fenestration and doors is greater than 40% of the\ngross wall area enclosing _conditioned space_ determined in\naccordance with Sentence 9.36.2.3.(2).\n(See Note A-9.36.5.14.(10).)",
                         "tables": {},
                         "referenced_text": [
+                            "Table 9.36.2.6.",
+                            "Table 9.36.2.7.",
+                            "Table 9.36.2.8.",
                             "9.36.6.3.",
-                            "9.36.2.3.",
-                            "9.36.2.7.",
-                            "9.36.2.8."
+                            "9.36.2.3."
                         ],
                         "subsections": {}
                     },
@@ -11304,6 +11400,8 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.36.5.15.",
+                            "Table 9.36.3.10.",
                             "9.36.5.11.",
                             "9.36.3.8.",
                             "9.33.5.1.",
@@ -11322,6 +11420,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.36.4.2.",
                             "9.31.6."
                         ],
                         "subsections": {}
@@ -11355,7 +11454,9 @@
                         "title": "Determination of Airtightness",
                         "text": "1) Where airtightness is to be used as input to the energy model calculations,\nit shall be determined through a multi-point depressurization test carried out in\naccordance with CAN/CGSB-149.10, “Determination of the airtightness of building\nenvelopes by the fan depressurization method,” using the following parameters\ndescribed therein:\na) as-operated, and\nb) guarded or unguarded.\n\n2) Except as provided in Sentence (3), where airtightness is to be used to\ndemonstrate compliance with an Airtightness Level listed in Table 9.36.6.4.-A\nor 9.36.6.4.-B, it shall be determined through a single-point, two-point or\nmulti-point depressurization test carried out in accordance with CAN/CGSB-149.10,\n“Determination of the airtightness of building envelopes by the fan depressurization\nmethod,” using the following parameters described therein:\na) as-operated, and\nb) guarded or unguarded, as applicable.\n\n3) Determining NLA 10 using a single-point test is not permitted.",
                         "tables": {},
-                        "referenced_text": [],
+                        "referenced_text": [
+                            "Table 9.36.6.4."
+                        ],
                         "subsections": {}
                     },
                     "9.36.6.4.": {
@@ -11376,6 +11477,7 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.36.6.4.",
                             "9.36.6.3."
                         ],
                         "subsections": {}
@@ -11486,9 +11588,9 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.36.2.6.",
                             "9.36.2.5.",
                             "9.36.2.11.",
-                            "9.36.2.6.",
                             "9.25.5."
                         ],
                         "subsections": {}
@@ -11517,7 +11619,7 @@
                             }
                         },
                         "referenced_text": [
-                            "9.36.2.8.",
+                            "Table 9.36.2.8.",
                             "9.36.2.5."
                         ],
                         "subsections": {}
@@ -11536,10 +11638,10 @@
                             }
                         },
                         "referenced_text": [
+                            "Table 9.36.6.4.",
                             "9.36.2.9.",
                             "9.36.2.10.",
-                            "9.36.6.",
-                            "9.36.6.4."
+                            "9.36.6."
                         ],
                         "subsections": {}
                     },

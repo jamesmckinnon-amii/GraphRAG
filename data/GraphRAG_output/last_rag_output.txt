@@ -1,0 +1,17 @@
+Based on the provided sections of the National Building Code, the specific requirements for attaching your cantilevered floor joist to an interior joist are outlined in Section 9.23.9.9.
+
+Here's what you need to know:
+
+1.  **Orientation and Extent of the Cantilevered Joist Tail:**
+    *   If your cantilevered floor joists are positioned at **right angles** to the main floor joists, the "tail joists" (the portion extending inward away from the cantilever support) must extend a distance equal to **not less than 6 times the length of the cantilever**. (Sentence 9.23.9.9.(3))
+
+2.  **Attachment Point:**
+    *   These tail joists shall be attached to an **interior doubled header joist**. (Sentence 9.23.9.9.(3))
+
+3.  **Attachment Method:**
+    *   The attachment must be done by **end nailing** to the interior doubled header joist. The specific nailing schedule (number, size, and spacing of nails) must be in conformance with **Table 9.23.3.4**. (Sentence 9.23.9.9.(3))
+    *   (Note: Table 9.23.3.4 itself is not provided in your question, so you would need to consult that table in the full code for the precise nailing requirements.)
+
+**In summary, for cantilevered floor joists at right angles to main joists, the inward-extending tail joist must be at least 6 times the cantilever length and must be end-nailed to an interior doubled header joist according to Table 9.23.3.4.**
+
+Other provided sections, such as 9.23.9.2. (Joists Supported by Beams) and 9.23.9.3. (Restraint of Joist Bottoms), discuss general joist support and restraint methods but do not specifically detail the attachment of a cantilevered joist's tail to an interior header in the manner described in 9.23.9.9.(3).

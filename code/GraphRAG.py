@@ -3,6 +3,12 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 from neo4j import GraphDatabase
 
+load_dotenv()
+NEO4J_URI = os.getenv("NEO4J_URI")
+NEO4J_USER = os.getenv("NEO4J_USER")
+NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
 class BuildingCodeRAG:
     def __init__(self, uri, user, password, google_api_key):
         self.driver = GraphDatabase.driver(uri, auth=(user, password))
@@ -46,7 +52,8 @@ class BuildingCodeRAG:
         Returns:
             - Parent sections (for broader context)
             - Referenced sections (for dependencies)
-            - Associated tables (with full content)
+            - Referenced tables (tables directly referenced by this section)
+            - Associated tables (tables owned by this section)
             - Child sections
         """
         with self.driver.session() as session:
@@ -79,7 +86,7 @@ class BuildingCodeRAG:
                     tables: CASE WHEN ref_tables[0].id IS NOT NULL THEN ref_tables ELSE [] END
                 }) as references
                 
-                // Get tables directly associated with this section
+                // Get tables directly associated with this section (owned by this section)
                 OPTIONAL MATCH (s)-[:HAS_TABLE]->(t:Table)
                 WITH s, parents, references, collect(DISTINCT {
                     id: t.id,
@@ -87,20 +94,22 @@ class BuildingCodeRAG:
                     content: t.content
                 }) as tables
                 
-                // Get immediate children
-                OPTIONAL MATCH (s)-[:HAS_SUBSECTION]->(child:Section)
+                // Get tables that are directly referenced by this section
+                // These are tables mentioned in the text but may belong to other sections
+                OPTIONAL MATCH (s)-[:REFERENCES]->(ref_table:Table)
                 WITH s, parents, references, tables, collect(DISTINCT {
-                    id: child.id,
-                    title: child.title
-                }) as children
+                    id: ref_table.id,
+                    name: ref_table.name,
+                    content: ref_table.content
+                }) as referenced_tables
                 
                 RETURN s.id as section_id,
-                       s.title as title,
-                       s.text as text,
-                       parents,
-                       children,
-                       references,
-                       tables
+                    s.title as title,
+                    s.text as text,
+                    parents,
+                    references,
+                    tables,
+                    referenced_tables
             """, section_id=section_id)
             
             return result.single()
@@ -108,8 +117,13 @@ class BuildingCodeRAG:
     def format_table_for_prompt(self, table):
         """Format a table for inclusion in the prompt"""
         parts = []
+        # Always include the table ID first for clear identification
+        if table.get('id'):
+            parts.append(f"{table['id']}")
+        # Then add the table name/title if it exists
         if table.get('name'):
-            parts.append(f"Table: {table['name']}")
+            parts.append(f"{table['name']}")
+        # Finally add the table content
         if table.get('content'):
             parts.append(table['content'])
         return "\n".join(parts)
@@ -174,6 +188,13 @@ class BuildingCodeRAG:
                     if table.get('id'):  # Only include if table exists
                         section_parts.append(f"\n{self.format_table_for_prompt(table)}")
             
+            # Add referenced tables (NEW: tables mentioned in text but owned by other sections)
+            if ctx.get('referenced_tables') and any(t.get('id') for t in ctx['referenced_tables']):
+                section_parts.append(f"\n--- Referenced Tables (from other sections) ---")
+                for table in ctx['referenced_tables']:
+                    if table.get('id'):
+                        section_parts.append(f"\n{self.format_table_for_prompt(table)}")
+            
             # Add referenced sections with their content and tables
             if ctx['references'] and any(r.get('id') for r in ctx['references']):
                 section_parts.append(f"\n--- Referenced Sections ---")
@@ -194,11 +215,6 @@ class BuildingCodeRAG:
                                 if table.get('id'):
                                     section_parts.append(f"\n{self.format_table_for_prompt(table)}")
             
-            # Add child sections if any (just titles for context)
-            if ctx['children'] and any(c.get('id') for c in ctx['children']):
-                child_titles = ", ".join([f"{c['id']} ({c['title']})" for c in ctx['children'] if c.get('id')])
-                section_parts.append(f"\nSubsections: {child_titles}")
-            
             section_text = "\n".join(section_parts)
             
             # Check if adding this section would exceed context length
@@ -211,9 +227,12 @@ class BuildingCodeRAG:
         
         prompt_parts.append("\n" + "="*60)
         prompt_parts.append("\nBased on the above sections and tables, please provide a comprehensive answer.")
-        prompt_parts.append("Always cite specific section numbers when referencing requirements.")
+        prompt_parts.append("Always cite specific section numbers and table numbers when referencing requirements.")
         
         full_prompt = "\n".join(prompt_parts)
+        prompt_filename = "last_rag_prompt.txt"
+        with open(prompt_filename, 'w', encoding='utf-8') as f:
+            f.write(full_prompt)
         
         # Generate answer using Gemini
         print(f"Generating answer...")
@@ -235,38 +254,10 @@ class BuildingCodeRAG:
                 "contexts": contexts,
                 "prompt_length": len(full_prompt)
             }
-    
-    def print_context_summary(self, contexts):
-        """Helper method to print a summary of retrieved contexts"""
-        print("\n" + "="*60)
-        print("RETRIEVED CONTEXT SUMMARY")
-        print("="*60)
-        
-        for i, ctx in enumerate(contexts, 1):
-            print(f"\nSection {i}: {ctx['section_id']} - {ctx['title']}")
-            print(f"  Text length: {len(ctx['text'])} characters")
-            print(f"  Tables: {len([t for t in ctx['tables'] if t.get('id')])}")
-            print(f"  References: {len([r for r in ctx['references'] if r.get('id')])}")
-            
-            # Show table names
-            if ctx['tables'] and any(t.get('id') for t in ctx['tables']):
-                table_names = [t['name'] for t in ctx['tables'] if t.get('name')]
-                if table_names:
-                    print(f"  Table names: {', '.join(table_names)}")
-            
-            # Show referenced section IDs
-            if ctx['references'] and any(r.get('id') for r in ctx['references']):
-                ref_ids = [r['id'] for r in ctx['references'] if r.get('id')]
-                print(f"  Referenced sections: {', '.join(ref_ids)}")
+
 
 # Usage example
 if __name__ == "__main__":
-    load_dotenv()
-    NEO4J_URI = os.getenv("NEO4J_URI")
-    NEO4J_USER = os.getenv("NEO4J_USER")
-    NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD")
-    GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
-
     # Connect and load
     rag = BuildingCodeRAG(
         uri=NEO4J_URI,
@@ -277,21 +268,12 @@ if __name__ == "__main__":
     
     try:
         # Ask a question
-        # question = "I have a light-frame construction building and I need to know about the roof members and their limits. I have rooof rafters  that supports gypsum board and I need to know the ratio of the clear span for the rafters"
-        # question = "I have a crawl space and I need to understand what the requirements are for drainage. Specifically I need to know whats required to drain the crawl space. The walls are foundation walls."
-        question = "I need you to tell me about crawl space drainage and the requirements"
+        question = "I need to better understand how exactly my cantilevered floor joist should be attached to an interior joist. Can you tell me what I need to know?"
         result = rag.answer_question(question, top_k=3)
         
-        # Print context summary
-        rag.print_context_summary(result['contexts'])
-        
-        # Print answer
-        print("\n" + "="*60)
-        print("ANSWER")
-        print("="*60)
-        print(result['answer'])
-        print(f"\nBased on sections: {', '.join(result['source_sections'])}")
-        print(f"Prompt length: {result['prompt_length']} characters")
+        answer_filename = "last_rag_output.txt"
+        with open(answer_filename, 'w', encoding='utf-8') as f:
+            f.write(result['answer'])
         
     finally:
         rag.close()

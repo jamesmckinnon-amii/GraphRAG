@@ -132,12 +132,12 @@ class BuildingCodeParser:
             # Clean the remaining content
             section.text = self._clean_content(raw_without_tables)
             
-            # Extract references from the cleaned text and store them, but skip self and any ancestor sections
+            # Extract references from the cleaned text and store them
             raw_refs = self._extract_references(section.text)
-
+            
             # Ensure current section number normalized (trailing dot)
             self_num = section.number if section.number.endswith('.') else section.number + '.'
-
+            
             # Build ancestor set: for section "9.33.8.4." this yields {"9.33.", "9.33.8."}
             parts = self_num.rstrip('.').split('.')
             ancestors = set()
@@ -146,46 +146,88 @@ class BuildingCodeParser:
                 anc = '.'.join(parts[:i+1]) + '.'
                 if anc.count('.') >= 2:  # ensures at least two groups like "9.33."
                     ancestors.add(anc)
-
-            # Final filter: keep only refs that are not the section itself and not an ancestor
+            
+            # Get the set of table IDs that belong to this section
+            own_table_ids = set(section.tables.keys())
+            
+            # Final filter: keep only refs that are:
+            # - not the section itself
+            # - not an ancestor section
+            # - not a table that belongs to this section
             filtered_refs = []
             for r in raw_refs:
                 norm_r = r if r.endswith('.') else (r + '.')
+                
+                # Skip if it's the section itself
                 if norm_r == self_num:
                     continue
+                
+                # Skip if it's an ancestor
                 if norm_r in ancestors:
                     continue
+                
+                # Skip if it's a table that belongs to this section
+                if norm_r in own_table_ids:
+                    continue
+                
                 filtered_refs.append(norm_r)
-
+            
             section.referenced_text = filtered_refs
     
     def _extract_references(self, text: str) -> List[str]:
         """
-        Extract references to Articles/Sections/Subsections/Clauses/etc from a text block.
-        Returns a list of normalized dotted references (e.g. "9.10.15.2.", "3.1.5.5.", "9.20.").
+        Extract references to Articles/Sections/Subsections/Clauses/Tables from a text block.
+        Returns a list of normalized dotted references (e.g. "9.10.15.2.", "3.1.5.5.", "9.20.", "Table 9.23.3.4.").
         - Requires at least TWO dotted numeric groups (e.g. "9.24.", "3.1.5.5.") to consider a token valid.
         - Captures labeled references like "Article 9.20.17.5.", "Subsection 9.14.3.", "Clause 3.1.5.5.(1)(b)"
-        - Captures additional numbers following a labeled reference separated by commas or 'and' (e.g. "Article 5.4.1.1. and 6.2.1.1.")
+        - Captures table references like "Table 9.23.3.4.", "Tables 9.10.3.1. and 9.10.3.2."
+        - Captures additional numbers following a labeled reference separated by commas or 'and'
         - Strips parenthetical sentence/group suffixes and keeps the numeric dotted portion (2 to 4 groups).
-        - Does NOT capture standalone "Sentence (4)" etc because those lack a dotted numeric prefix.
         """
         if not text:
             return []
-
-        # Require at least two dotted groups now: (?:\d+\.){2,4}
+        
+        # Pattern for section/article/clause references (requires at least two dotted groups)
         labeled_pattern = re.compile(
             r'\b(?:Article|Articles?|Section|Sections?|Subsection|Subsections?|Clause|Clauses?|'
             r'Subclause|Subclauses?|Sentence|Sentences?)\s+'
             r'((?:\d+\.){2,4}(?:\([^\)]*\))*)',
             re.IGNORECASE
         )
-
+        
+        # Pattern specifically for table references (requires at least two dotted groups)
+        # Captures both single and multiple table references like "Table 9.10.3.1.-A or 9.10.3.1.-B"
+        table_pattern = re.compile(
+            r'\bTable(?:s)?\s+((?:\d+\.){2,4}(?:-[A-Z])?(?:\s+(?:or|and)\s+(?:\d+\.){2,4}(?:-[A-Z])?)*)',
+            re.IGNORECASE
+        )
+        
         # Additional dotted numbers (2-4 groups)
         additional_num_pattern = re.compile(r'((?:\d+\.){2,4})')
-
+        
         found_ordered: List[str] = []
         seen = set()
-
+        table_numbers = set()  # Track bare numbers that are from tables
+        
+        # Extract table references FIRST and mark their numbers
+        for m in table_pattern.finditer(text):
+            full_match = m.group(1)
+            # Extract all table numbers from the match (handles "9.10.3.1.-A or 9.10.3.1.-B")
+            table_nums = re.findall(r'((?:\d+\.){2,4})', full_match)
+            
+            for table_num in table_nums:
+                if not table_num.endswith('.'):
+                    table_num = table_num + '.'
+                
+                table_ref = f"Table {table_num}"
+                table_numbers.add(table_num)  # Mark this bare number as belonging to a table
+                
+                if table_ref not in seen:
+                    seen.add(table_ref)
+                    found_ordered.append(table_ref)
+        
+        # Extract section/article/clause references
+        # Skip any numbers that were already identified as table references
         for m in labeled_pattern.finditer(text):
             group = m.group(1)
             # Extract leading dotted numeric groups (2-4 groups)
@@ -194,23 +236,32 @@ class BuildingCodeParser:
                 normalized = lead.group(1)
                 if not normalized.endswith('.'):
                     normalized = normalized + '.'
+                
+                # Skip if this number belongs to a table
+                if normalized in table_numbers:
+                    continue
+                
                 if normalized not in seen:
                     seen.add(normalized)
                     found_ordered.append(normalized)
-
+            
             # Lookahead slice for additional numbers that might follow without repeated label
             lookahead_span_end = min(len(text), m.end() + 200)
             tail = text[m.end():lookahead_span_end]
-
             # Find numbers directly following like ", 6.2.1.1." or "and 6.2.1.1."
             for add in additional_num_pattern.findall(tail):
                 add_norm = add
                 if not add_norm.endswith('.'):
                     add_norm = add_norm + '.'
+                
+                # Skip if this number belongs to a table
+                if add_norm in table_numbers:
+                    continue
+                
                 if add_norm not in seen:
                     seen.add(add_norm)
                     found_ordered.append(add_norm)
-
+        
         # Capture bare dotted references near 'see' or parentheses but requiring 2+ groups
         # This handles cases like "(see 9.20., 9.27. or 9.28.)"
         loose_pattern = re.compile(
@@ -222,10 +273,15 @@ class BuildingCodeParser:
             if tkn:
                 if not tkn.endswith('.'):
                     tkn = tkn + '.'
+                
+                # Skip if this number belongs to a table
+                if tkn in table_numbers:
+                    continue
+                
                 if tkn not in seen:
                     seen.add(tkn)
                     found_ordered.append(tkn)
-
+        
         return found_ordered
 
 

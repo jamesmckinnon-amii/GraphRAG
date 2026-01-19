@@ -121,25 +121,48 @@ class BuildingCodeLoader:
             for sub_id, sub_data in section_data.get("subsections", {}).items():
                 self.load_section(sub_id, sub_data, section_id)
     
-    def create_reference_relationships(self, section_id, referenced_sections):
-        """Create REFERENCES relationships from a section to other sections it references
+    def create_reference_relationships(self, section_id, referenced_items):
+        """Create REFERENCES relationships from a section to other sections and tables it references
         
         Args:
             section_id: The ID of the section that contains references
-            referenced_sections: List of section IDs that are referenced
+            referenced_items: List of section IDs or table IDs that are referenced
+                            (e.g., ["9.23.3.4.", "Table 9.23.3.4.", "9.20.1.1."])
         """
-        if not referenced_sections:
+        if not referenced_items:
             return
         
         with self.driver.session() as session:
-            for ref_section_id in referenced_sections:
-                # Only create relationship if both sections exist
-                session.run("""
-                    MATCH (source:Section {id: $source_id})
-                    MATCH (target:Section {id: $target_id})
-                    MERGE (source)-[:REFERENCES]->(target)
-                    RETURN source.id as source, target.id as target
-                """, source_id=section_id, target_id=ref_section_id)
+            for ref_id in referenced_items:
+                # Check if this is a table reference (starts with "Table ")
+                if ref_id.startswith("Table "):
+                    # Create relationship to a Table node
+                    result = session.run("""
+                        MATCH (source:Section {id: $source_id})
+                        MATCH (target:Table {id: $ref_id})
+                        MERGE (source)-[:REFERENCES]->(target)
+                        RETURN source.id as source, target.id as target
+                    """, source_id=section_id, ref_id=ref_id)
+                    
+                    # Check if the relationship was created
+                    if result.single():
+                        pass  # Successfully created
+                    else:
+                        print(f"    Warning: Table '{ref_id}' referenced by {section_id} not found in graph")
+                else:
+                    # Create relationship to a Section node
+                    result = session.run("""
+                        MATCH (source:Section {id: $source_id})
+                        MATCH (target:Section {id: $ref_id})
+                        MERGE (source)-[:REFERENCES]->(target)
+                        RETURN source.id as source, target.id as target
+                    """, source_id=section_id, ref_id=ref_id)
+                    
+                    # Check if the relationship was created
+                    if result.single():
+                        pass  # Successfully created
+                    else:
+                        print(f"    Warning: Section '{ref_id}' referenced by {section_id} not found in graph")
             
     
     def process_references_recursive(self, section_id, section_data):

@@ -1,0 +1,38 @@
+[
+  {
+    "question": "I have a light-frame construction building and I need to know about the roof members and their limits. I have rooof rafters that supports gypsum board and I need to know the ratio of the clear span for the rafters",
+    "reference_answer": "",
+    "relevant_sections": [
+    ],
+    "category": "roof_construction"
+  },
+  {
+    "question": "I have a crawl space and I need to understand what the requirements are for drainage. Specifically I need to know whats required to drain the crawl space. The walls are foundation walls.",
+    "reference_answer": "",
+    "relevant_sections": [
+
+    ],
+    "category": "drainage"
+  },
+  {
+    "question": "I need you to tell me about crawl space drainage and the requirements",
+    "reference_answer": "",
+    "relevant_sections": [
+    ],
+    "category": "drainage"
+  },
+  {
+    "question": "I am in the process of using masonry on a concrete form wall that isn't in contact with the ground. I need to understand what the rules are for anchoring the masonry to masonry piers.",
+    "reference_answer": "",
+    "relevant_sections": [
+    ],
+    "category": "anchoring_masonry"
+  },
+  {
+    "question": "I need to better understand how exactly my cantilevered floor joist should be attached to an interior joist. Can you tell me what I need to know?",
+    "reference_answer": "",
+    "relevant_sections": [
+    ],
+    "category": "cantilevered_joist"
+  }
+]
